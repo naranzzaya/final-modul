@@ -175,25 +175,54 @@ $(document).ready(function(){
     $(window).on('scroll', function() {
       x = $(window).scrollTop();
       // console.log(x)
-      if (x > 800) {
+      if (x > 0) {
         // динозавр
-        $('.about_dino_blue').css('top', '5vw');
+        $('.about_dino_blue').css('top', '15vw');
+        $('.about_dino_blue').css('left', '0vw');
+        $('.about_dino_blue').css('position', 'absolute');
+        // заголовок
+        $('.hang_h').css('top', '2.5vw');
+        $('.hang_h').css('left', '9vw');
+        $('.hang_h').css('position', 'absolute');
+        // 'книга'
+        $('.to_book').css('top', '30vw');
+        $('.to_book').css('position', 'absolute');
+        // 'видео'
+        $('.to_video').css('top', '33vw');
+        $('.to_video').css('position', 'absolute');
+      }
+      if (x > 750) {
+        // динозавр
+        $('.about_dino_blue').css('top', '18vw');
         $('.about_dino_blue').css('position', 'fixed');
         // заголовок
-        $('.hang_h').css('top', '5vw');
-        $('.hang_h').css('left', '4vw');
+        $('.hang_h').css('top', '5.5vw');
+        $('.hang_h').css('left', '9vw');
         $('.hang_h').css('position', 'fixed');
         // 'книга'
-        $('.to_book').css('top', '75vw');
+        $('.to_book').css('top', '25vw');
         $('.to_book').css('position', 'fixed');
         // 'видео'
-        $('.to_video').css('top', '80vw');
+        $('.to_video').css('top', '28vw');
         $('.to_video').css('position', 'fixed');
-      } else if (x > 1600) {
-
-      } else {
-
       }
+      if (x > 1400) {
+        // динозавр
+        $('.about_dino_blue').css('top', '65vw');
+        $('.about_dino_blue').css('left', '0vw');
+        $('.about_dino_blue').css('position', 'absolute');
+        // заголовок
+        $('.hang_h').css('top', '2.5vw');
+        $('.hang_h').css('left', '9vw');
+        $('.hang_h').css('position', 'absolute');
+        // 'книга'
+        $('.to_book').css('top', '30vw');
+        $('.to_book').css('position', 'absolute');
+        // 'видео'
+        $('.to_video').css('top', '33vw');
+        $('.to_video').css('position', 'absolute');
+      }
+
       // if (x > 1600) {
       //   // динозавр
       //   $('.about_dino_blue').css('top', '16vw');
