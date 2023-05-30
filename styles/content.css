@@ -1,0 +1,455 @@
+/* INDEX.HTML */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  background-color: #69235C;
+}
+/* менюбар */
+.menubar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  padding: 10px 20px;
+  z-index: 5;
+}
+.menubar a{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-top: 1vw;
+}
+.booking{
+  margin-left: 4vw;
+}
+.contact{
+  margin-left: 66vw;
+}
+/* заголовки */
+.about{
+  position: absolute;
+  display: inline-block;
+  width: 33vw;
+  height: 7.05vw;
+  top: 11vw;
+  left: 10vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 5;
+}
+.about_fill{
+  background-image: url('../images/about_fill.svg');
+}
+.about_frame{
+  background-image: url('../images/about_frame.svg');
+}
+.menu{
+  position: absolute;
+  display: inline-block;
+  width: 33.5vw;
+  height: 7vw;
+  top: 22vw;
+  left: 10vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 5;
+}
+.menu_fill{
+  background-image: url('../images/menu_fill.svg');
+}
+.menu_frame{
+  background-image: url('../images/menu_frame.svg');
+}
+.event{
+  position: absolute;
+  display: inline-block;
+  width: 49.5vw;
+  height: 9.4vw;
+  top: 30vw;
+  left: 10vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 5;
+}
+.event_fill{
+  background-image: url('../images/event_fill.svg');
+}
+.event_frame{
+  background-image: url('../images/event_frame.svg');
+}
+.shop{
+  position: absolute;
+  display: inline-block;
+  width: 51.5vw;
+  height: 7vw;
+  top: 43vw;
+  left: 10vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 5;
+}
+.shop_fill{
+  background-image: url('../images/shop_fill.svg');
+}
+.shop_frame{
+  background-image: url('../images/shop_frame.svg');
+}
+/* баннер */
+.banner{
+  position: absolute;
+  display: inline-block;
+  width: 25vw;
+  height: 40vw;
+  top:11vw;
+  right: 8vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 4;
+}
+.hicocktails{
+  background-image: url('../images/hicocktails.svg');
+}
+.hidino{
+  background-image: url('../images/hidino.svg');
+}
+.hiposter{
+  background-image: url('../images/hiposter.svg');
+}
+.hibag{
+  background-image: url('../images/hibag.svg');
+}
+/* элементы */
+.light_one{
+  position: fixed;
+  width: 80vw;
+  height: 100vw;
+  margin-left: 16vw;
+  margin-top: 0vw;
+  background-image: url('../images/light_one.svg');
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+.light_two{
+  position: fixed;
+  width: 80vw;
+  height: 100vw;
+  margin-left: -19vw;
+  margin-top: 3vw;
+  background-image: url('../images/light_two.svg');
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.light_three{
+  position: fixed;
+  width: 80vw;
+  height: 100vw;
+  margin-left: 16vw;
+  margin-top: 0vw;
+  background-image: url('../images/light_three.svg');
+  background-repeat: no-repeat;
+  z-index: 1;
+  transform: scale(1.5);
+}
+.leaves{
+  position: fixed;
+  width: 100vw;
+  height: 30vw;
+  margin-left: -6vw;
+  margin-top: 30vw;
+  background-image: url('../images/leaves.svg');
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.ocean_ground{
+  position: fixed;
+  width: 28vw;
+  height: 33vw;
+  margin-left: -6vw;
+  margin-top: 65vw;
+  background-image: url('../images/ocean_ground.svg');
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.none{
+  display: none;
+}
+
+
+/* ABOUT.HTML */
+.ref{
+  width: 100vw;
+  height: 3084px;
+  /* background-image: url('../images/ref.svg'); */
+  background-repeat: no-repeat;
+  /* z-index: 10; */
+}
+.cover{
+  background-color: #84BC33;
+}
+/* менюбар */
+.nav{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vw;
+  padding: 1vw 2vw;
+  left: 3vw;
+  z-index: 5;
+}
+.logo {
+  height: 4.3vw;
+  width: 3vw;
+  margin-top:1vw;
+  margin-left: -2vw;
+  background-image:url('../images/logo.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ .nav a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+}
+.book_main{
+  background-color: #E53D30;
+  border-radius: 1vw;
+  padding: 1vw;
+  margin-left: 17vw;
+}
+.about_main{
+  margin-left: 24vw;
+  font-weight: 500;
+}
+.menu_main{
+  margin-left: 3vw;
+}
+.event_main{
+  margin-left: 3vw;
+}
+.shop_main{
+  margin-left: 3vw;
+}
+.contact_main{
+  margin-left: 3vw;
+}
+/* первая часть */
+.about_first{
+  display: block;
+  position: relative;
+  /* width: 100vw;
+  height: 100vh; */
+  background-color: gold;
+}
+h1 {
+  font-size: 4vw;
+  font-weight: 500;
+  color: #FFFFFF;
+  font-family: 'PPPangramSansRounded-Medium', sans-serif;
+}
+.who{
+  position: absolute;
+  width: 25vw;
+  height: 5vw;
+  top: 17vw;
+  left: 7vw;
+}
+.about_text{
+  position: absolute;
+  width: 36vw;
+  height: 5vw;
+  top: 24vw;
+  left: 7.5vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.5vw;
+  color: #FFFFFF;
+  line-height: 2vw;
+}
+.hi{
+  position: absolute;
+  width: 30vw;
+  height: 5vw;
+  top: 40vw;
+  left: 7.5vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2vw;
+  color: #FFFFFF;
+  line-height: 2vw;
+  border-radius: 1vw;
+  border-color: #FFFFFF;
+  padding: 1.5vw;
+  border: 1vw;
+  box-sizing: border-box;
+  border-width: 1vw;
+}
+.leaf{
+  position: absolute;
+  width: 50vw;
+  height: 28vw;
+  top: 45vw;
+  left: -5vw;
+  background-image: url('../images/leaf.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about_dino_red{
+  position: absolute;
+  width: 31vw;
+  height: 49vw;
+  top: 25vw;
+  left: 46vw;
+  background-image: url('../images/about_dino_red.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about_dino_gold{
+  position: absolute;
+  width: 36vw;
+  height: 49vw;
+  top: 16vw;
+  left: 65vw;
+  background-image: url('../images/about_dino_gold.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* часть вторая */
+.about_second{
+  display: block;
+  position: relative;
+  top: 60vw;
+  left: 0vw;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: navy; */
+}
+.board{
+  position: relative;
+  left: 5vw;
+  width: 90vw;
+  height: 104vw;
+  background-color: #FFFFFF;
+  border-radius: 2vw;
+}
+.board h1{
+  position: absolute;
+  width: 25vw;
+  height: 5vw;
+  top: 4vw;
+  left: 4vw;
+  color: #84BC33
+}
+.board p{
+  position: absolute;
+  left: 28vw;
+  color: #84BC33;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.5vw;
+  line-height: 2vw;
+  border: 1vw solid #84BC33;
+  border-radius: 1vw;
+}
+.to_book{
+  top: 35vw
+}
+.to_video{
+  top: 40vw
+}
+.images{
+  position: relative;
+  width: 50vw;
+  height: 77vw;
+  top: 3vw;
+  left: 40vw;
+  /* background-color: green; */
+}
+.images > *{
+  position: relative;
+  display: inline-block;
+  width: 23vw;
+  height: 15.5vw;
+  top: 2vw;
+  /* left: 2vw; */
+  /* padding-left: 2vw;
+  padding-bottom: 2vw; */
+}
+.img_one{
+  background-image: url('../images/img_one.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img_two{
+  background-image: url('../images/img_two.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img_three{
+  background-image: url('../images/img_three.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img_four{
+  background-image: url('../images/img_four.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img_five{
+  background-image: url('../images/img_five.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img_six{
+  background-image: url('../images/img_six.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img_seven{
+  background-image: url('../images/img_seven.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img_eight{
+  background-image: url('../images/img_eight.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img_nine{
+  background-image: url('../images/img_nine.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img_ten{
+  background-image: url('../images/img_ten.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img_el{
+  background-image: url('../images/img_el.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img_tw{
+  background-image: url('../images/img_tw.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about_dino_blue{
+  position: absolute;
+  width: 33vw;
+  height: 36vw;
+  top: 16vw;
+  left: 0vw;
+  background-image: url('../images/about_dino_blue.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
