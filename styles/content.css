@@ -161,18 +161,18 @@ body {
   position: fixed;
   width: 100vw;
   height: 30vw;
-  margin-left: -6vw;
-  margin-top: 30vw;
+  margin-left: 0vw;
+  margin-top: 35vw;
   background-image: url('../images/leaves.svg');
   background-repeat: no-repeat;
   z-index: 1;
 }
 .ocean_ground{
   position: fixed;
-  width: 28vw;
-  height: 33vw;
-  margin-left: -6vw;
-  margin-top: 65vw;
+  width: 32vw;
+  height: 30vw;
+  margin-left: 0vw;
+  margin-top: 44vw;
   background-image: url('../images/ocean_ground.svg');
   background-repeat: no-repeat;
   z-index: 1;
@@ -183,13 +183,12 @@ body {
 
 
 /* ABOUT.HTML */
-.ref{
+/* .ref{
   width: 100vw;
   height: 3084px;
-  /* background-image: url('../images/ref.svg'); */
+  background-image: url('../images/ref.svg');
   background-repeat: no-repeat;
-  /* z-index: 10; */
-}
+} */
 .cover{
   background-color: #84BC33;
 }
@@ -336,7 +335,7 @@ h1 {
   position: relative;
   left: 5vw;
   width: 90vw;
-  height: 104vw;
+  height: 109vw;
   background-color: #FFFFFF;
   border-radius: 2vw;
 }
@@ -356,8 +355,9 @@ h1 {
   font-weight: 500;
   font-size: 1.5vw;
   line-height: 2vw;
-  border: 1vw solid #84BC33;
+  border: 0.2vw solid #84BC33;
   border-radius: 1vw;
+  padding: 0.5vw 1vw;
 }
 .to_book{
   top: 35vw

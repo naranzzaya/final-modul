@@ -50,7 +50,7 @@ $(document).ready(function(){
     $('.light_two').removeClass("none");
     $('.light_three').removeClass("none");
     $('.leaves').addClass("none");
-    $('.ocean_ground').removeClass("none");
+    $('.ocean_ground').addClass("none");
     // заголовки
     if ($('.about').hasClass('about_frame')){
         ($('.about').removeClass('about_frame'));
@@ -90,7 +90,7 @@ $(document).ready(function(){
     $('.light_one').addClass("none");
     $('.light_two').addClass("none");
     $('.light_three').addClass("none");
-    // $('.leaves').addClass("none");
+    $('.leaves').addClass("none");
     $('.ocean_ground').removeClass("none");
     if ($('.ocean_ground').hasClass('none')){
       ($('.ocean_ground').removeClass('none'));
@@ -189,6 +189,10 @@ $(document).ready(function(){
         // 'видео'
         $('.to_video').css('top', '80vw');
         $('.to_video').css('position', 'fixed');
+      } else if (x > 1600) {
+
+      } else {
+
       }
       // if (x > 1600) {
       //   // динозавр
