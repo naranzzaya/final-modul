@@ -208,6 +208,7 @@ body {
   width: 3vw;
   margin-top:1vw;
   margin-left: -2vw;
+  margin-right: 5vw;
   background-image:url('../images/logo.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -222,11 +223,12 @@ body {
   background-color: #E53D30;
   border-radius: 1vw;
   padding: 1vw;
-  margin-left: 17vw;
+  margin-left: 15vw;
 }
 .about_main{
-  margin-left: 26vw;
-  font-weight: 500;
+  margin-left: 22vw;
+  font-weight: 600;
+  font-size: 20px;
 }
 .menu_main{
   margin-left: 3vw;
@@ -283,10 +285,10 @@ h1 {
   font-weight: 600;
   font-size: 2vw;
   color: #FFFFFF;
-  line-height: 2vw;
+  line-height: 5vw;
   border: 0.2vw solid #FFFFFF;
   border-radius: 1vw;
-  padding: 0.2vw 0.5vw;
+  text-align: center;
 }
 .leaf{
   position: absolute;
@@ -342,10 +344,11 @@ h1 {
   height: 5vw;
   top: 4vw;
   left: 4vw;
-  color: #84BC33
+  color: #84BC33;
+  text-align: center;
 }
-.board p{
-  width: 6vw;
+.to_book, .to_video{
+  width: 7vw;
   position: absolute;
   left: 28vw;
   color: #84BC33;
@@ -355,13 +358,36 @@ h1 {
   line-height: 2vw;
   border: 0.2vw solid #84BC33;
   border-radius: 1vw;
-  padding: 0.5vw 1vw;
+  text-align: center;
+  padding: 0.5vw 1.5vw;
 }
 .to_book{
-  top: 35vw
+  top: 35vw;
+}
+.to_book:hover{
+  background-color: #84BC33;
+}
+.to_book a{
+  padding: 0.5vw 1vw;
+  text-decoration: none;
+  color: #84BC33;
+}
+.to_book a:hover {
+  color: #FFFFFF;
 }
 .to_video{
-  top: 40vw
+  top: 40vw;
+}
+.to_video:hover {
+  background-color: #84BC33;
+}
+.to_video a{
+  padding: 0.5vw 1vw;
+  text-decoration: none;
+  color: #84BC33;
+}
+.to_video a:hover {
+  color: #FFFFFF;
 }
 .images{
   position: relative;
@@ -440,6 +466,42 @@ h1 {
   background-image: url('../images/img_tw.svg');
   background-size: cover;
   background-repeat: no-repeat;
+}
+.img_one:hover{
+  background-image: url('../images/it_one.svg');
+}
+.img_two:hover{
+  background-image: url('../images/it_two.svg');
+}
+.img_three:hover{
+  background-image: url('../images/it_three.svg');
+}
+.img_four:hover{
+  background-image: url('../images/it_four.svg');
+}
+.img_five:hover{
+  background-image: url('../images/it_five.svg');
+}
+.img_six:hover{
+  background-image: url('../images/it_six.svg');
+}
+.img_seven:hover{
+  background-image: url('../images/it_seven.svg');
+}
+.img_eight:hover{
+  background-image: url('../images/it_eight.svg');
+}
+.img_nine:hover{
+  background-image: url('../images/it_nine.svg');
+}
+.img_ten:hover{
+  background-image: url('../images/it_ten.svg');
+}
+.img_el:hover{
+  background-image: url('../images/it_el.svg');
+}
+.img_tw:hover{
+  background-image: url('../images/it_tw.svg');
 }
 .about_dino_blue{
   position: absolute;
