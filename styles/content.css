@@ -177,6 +177,76 @@ body {
   background-repeat: no-repeat;
   z-index: 1;
 }
+.ocean_plant{
+  position: fixed;
+  width: 25vw;
+  height: 40vw;
+  margin-left: 83vw;
+  margin-top: 31vw;
+  background-image: url('../images/ocean_plant.svg');
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.ocean_st{
+  position: fixed;
+  width: 15vw;
+  height: 15vw;
+  margin-left: 27vw;
+  margin-top: 50vw;
+  background-image: url('../images/ocean_st.svg');
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.ocean_sta{
+  position: fixed;
+  width: 15vw;
+  height: 15vw;
+  margin-left: 53vw;
+  margin-top: 50vw;
+  background-image: url('../images/ocean_sta.svg');
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.ocean_star{
+  position: fixed;
+  width: 15vw;
+  height: 15vw;
+  margin-left: 63vw;
+  margin-top: 47vw;
+  background-image: url('../images/ocean_star.svg');
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.cloud_one{
+  position: fixed;
+  width: 28vw;
+  height: 15vw;
+  margin-left:2vw;
+  margin-top: 48vw;
+  background-image: url('../images/cloud_one.svg');
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.cloud_two{
+  position: fixed;
+  width: 24vw;
+  height: 17vw;
+  margin-left: 46vw;
+  margin-top: 15vw;
+  background-image: url('../images/cloud_two.svg');
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.cloud_three{
+  position: fixed;
+  width: 20vw;
+  height: 28vw;
+  margin-left: 80vw;
+  margin-top: 49vw;
+  background-image: url('../images/cloud_three.svg');
+  background-repeat: no-repeat;
+  z-index: 1;
+}
 .none{
   display: none;
 }
@@ -198,51 +268,58 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100vw;
   height: 5vw;
-  padding: 1vw 2vw;
-  left: 3vw;
+  background-color: #FFFFFF;
+  padding: 0.2vw 2vw;
+  left: 0vw;
   z-index: 5;
 }
 .logo {
   height: 4.3vw;
   width: 3vw;
-  margin-top:1vw;
-  margin-left: -2vw;
+  margin-top: 0vw;
+  margin-left: 0vw;
   margin-right: 5vw;
   background-image:url('../images/logo.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
- .nav a{
-  color: #FFFFFF;
+.nav a{
   text-decoration: none;
   font-family: 'Inter', sans-serif;
-  font-size: 18px;
+  font-size: 1.6vw;
 }
 .book_main{
+  color: #FFFFFF;
   background-color: #E53D30;
   border-radius: 1vw;
   padding: 1vw;
-  margin-left: 15vw;
+  margin-right: 3vw;
 }
 .about_main{
-  margin-left: 22vw;
+  /* margin-left: 22vw; */
   font-weight: 600;
   font-size: 20px;
+  color: #84BC33;
 }
 .menu_main{
-  margin-left: 3vw;
+  /* margin-left: 1vw; */
+  color: #84BC33;
 }
 .event_main{
-  margin-left: 3vw;
+  /* margin-left: 1vw; */
+  color: #84BC33;
 }
 .shop_main{
-  margin-left: 3vw;
+  /* margin-left: 1vw; */
+  color: #84BC33;
 }
 .contact_main{
-  margin-left: 3vw;
+  /* margin-left: 1vw; */
+  color: #84BC33;
 }
-/* первая часть */
+/* часть первая */
 .about_first{
   display: block;
   position: relative;
@@ -252,7 +329,7 @@ body {
 }
 h1 {
   font-size: 4vw;
-  font-weight: 500;
+  font-weight: 700;
   color: #FFFFFF;
   font-family: 'PPPangramSansRounded-Medium', sans-serif;
 }
@@ -284,11 +361,20 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 2vw;
-  color: #FFFFFF;
   line-height: 5vw;
   border: 0.2vw solid #FFFFFF;
   border-radius: 1vw;
   text-align: center;
+}
+.hi:hover{
+  background-color: #FFFFFF;
+}
+.hi a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.hi a:hover{
+  color: #84BC33;
 }
 .leaf{
   position: absolute;
@@ -512,16 +598,201 @@ h1 {
   background-image: url('../images/about_dino_blue.svg');
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: 10;
+  z-index:4;
 }
 
-/* третья часть */
+/* часть третья */
 .about_third{
   display: block;
   position: absolute;
   top: 170vw;
   left: 0vw;
   width: 100vw;
-  height: 100vh;
-  background-color: navy;
+  height: 112vh;
+  /* background-color: navy; */
+}
+.about_third h1{
+  position: absolute;
+  top: 3vw;
+  left: 7vw;
+}
+.about_third p{
+  position: absolute;
+  top: 16vw;
+  left: 2vw;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vw;
+  font-weight: 500;
+  line-height: 2vw;
+  width: 22vw;
+  color: #6F6F6F;
+}
+.about_third h2{
+  position: absolute;
+  top: 13vw;
+  left: 2vw;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+  font-weight: 700;
+  line-height: 2vw;
+}
+.fb_dino_one{
+  color: #253464;
+}
+.fb_dino_two{
+  color: #C03226;
+}
+.fb_dino_three{
+  color: #EB5D3A;
+}
+.card_one{
+  position: relative;
+  top: 31vw;
+  left: 7vw;
+  display: inline-block;
+  width: 26vw;
+  height: 30vw;
+  background-color: #FFFFFF;
+  border-radius: 1.5vw;
+}
+.card_one:hover{
+  background-color: #A8E2FB;
+}
+.card_two{
+  position: relative;
+  top: 31vw;
+  left: 11vw;
+  display: inline-block;
+  width: 26vw;
+  height: 30vw;
+  background-color: #FFFFFF;
+  border-radius: 1.5vw;
+}
+.card_two:hover{
+  background-color: #FCC537;
+}
+.card_three{
+  position: relative;
+  top: 31vw;
+  left: 15vw;
+  display: inline-block;
+  width: 26vw;
+  height: 30vw;
+  background-color: #FFFFFF;
+  border-radius: 1.5vw;
+}
+.card_three:hover{
+  background-color: #FDCF8C;
+}
+.star_one, .star_two, .star_three{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 20vw;
+  height: 5vw;
+  /* background-color: navy; */
+  z-index: 5;
+}
+.star_one > *{
+  width: 3.6vw;
+  height: 3.5vw;
+  background-image: url('../images/star.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.star_two > *{
+  width: 3.6vw;
+  height: 3.5vw;
+  background-image: url('../images/star.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.star_three > *{
+  width: 3.6vw;
+  height: 3.5vw;
+  background-image: url('../images/star.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about_dino_one_small{
+  position: absolute;
+  width: 14vw;
+  height: 18.8vw;
+  top: -16vw;
+  left: 7.5vw;
+  background-image: url('../images/about_dino_one_small.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about_dino_two_small{
+  position: absolute;
+  width: 14vw;
+  height: 18.8vw;
+  top: -16vw;
+  left: 7.5vw;
+  background-image: url('../images/about_dino_two_small.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about_dino_three_small{
+  position: absolute;
+  width: 14vw;
+  height: 18.8vw;
+  top: -16vw;
+  left: 7.5vw;
+  background-image: url('../images/about_dino_three_small.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* нижняя */
+.bottom{
+  position: absolute;
+  display: block;
+  top: 235vw;
+  left: 0vw;
+  width: 100vw;
+  height: 10vw;
+  /* background: black; */
+}
+.bottom > *{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vw;
+  color: #FFFFFF;
+}
+.bottom_one{
+  margin-left: 6vw;
+  margin-top: 3vw;
+}
+.bottom_two{
+  margin-left: 6vw;
+  margin-top: 1vw;
+}
+.bottom_three{
+  margin-left: 18vw;
+  margin-top: -4vw;
+}
+.bottom_four{
+  margin-left: 18vw;
+  margin-top: 1vw;
+}
+.bottom_five{
+  margin-left: 83vw;
+  margin-top: -4vw;
+}
+.bottom_six{
+  margin-left: 83vw;
+  margin-top: 1vw;
+}
+.hse{
+  background-image: url('../images/white.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 12vw;
+  height: 5vw;
+  margin-left: 42vw;
+  margin-top: -4.5vw;
 }

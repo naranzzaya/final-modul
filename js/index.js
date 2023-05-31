@@ -10,6 +10,13 @@ $(document).ready(function(){
     $('.light_three').addClass("none");
     $('.leaves').removeClass("none");
     $('.ocean_ground').addClass("none");
+    $('.ocean_st').addClass("none");
+    $('.ocean_sta').addClass("none");
+    $('.ocean_star').addClass("none");
+    $('.ocean_plant').addClass("none");
+    $('.cloud_one').addClass("none");
+    $('.cloud_two').addClass("none");
+    $('.cloud_three').addClass("none");
     // заголовки
     if ($('.about').hasClass('about_fill')){
       ($('.about').removeClass('about_fill'));
@@ -51,6 +58,13 @@ $(document).ready(function(){
     $('.light_three').removeClass("none");
     $('.leaves').addClass("none");
     $('.ocean_ground').addClass("none");
+    $('.ocean_st').addClass("none");
+    $('.ocean_sta').addClass("none");
+    $('.ocean_star').addClass("none");
+    $('.ocean_plant').addClass("none");
+    $('.cloud_one').addClass("none");
+    $('.cloud_two').addClass("none");
+    $('.cloud_three').addClass("none");
     // заголовки
     if ($('.about').hasClass('about_frame')){
         ($('.about').removeClass('about_frame'));
@@ -92,10 +106,13 @@ $(document).ready(function(){
     $('.light_three').addClass("none");
     $('.leaves').addClass("none");
     $('.ocean_ground').removeClass("none");
-    if ($('.ocean_ground').hasClass('none')){
-      ($('.ocean_ground').removeClass('none'));
-
-    }
+    $('.ocean_plant').removeClass("none");
+    $('.ocean_st').removeClass("none");
+    $('.ocean_sta').removeClass("none");
+    $('.ocean_star').removeClass("none");
+    $('.cloud_one').addClass("none");
+    $('.cloud_two').addClass("none");
+    $('.cloud_three').addClass("none");
     // заголовки
     if ($('.about').hasClass('about_frame')){
       ($('.about').removeClass('about_frame'));
@@ -137,7 +154,13 @@ $(document).ready(function(){
     $('.light_three').addClass("none");
     $('.leaves').addClass("none");
     $('.ocean_ground').addClass("none");
+    $('.ocean_st').addClass("none");
+    $('.ocean_sta').addClass("none");
+    $('.ocean_star').addClass("none");
+    $('.ocean_plant').addClass("none");
     $('.cloud_one').removeClass("none");
+    $('.cloud_two').removeClass("none");
+    $('.cloud_three').removeClass("none");
     // заголовки
     if ($('.about').hasClass('about_frame')){
       ($('.about').removeClass('about_frame'));
@@ -231,10 +254,27 @@ $(document).ready(function(){
     });
   });
 
+// отзывы
+  // карточка 1
+  $(".card_one").hover(function () {
+    $('.card_one').addClass('animate__animated animate__pulse');
+  });
+  // карточка 2
+  $(".card_two").hover(function () {
+    $('.card_two').addClass('animate__animated animate__pulse');
+  });
+  // карточка 3
+  $(".card_three").hover(function () {
+    $('.card_three').addClass('animate__animated animate__pulse');
+  });
 
-// при наведении на картинки
-  $(".img_one").hover(function () {
-    $('.text_one').removeClass('none');
+// звездочки
+  $(".star_one_one").click(function () {
+    $('.star_one_one').css('background-image','url(../images/star_white.svg)');
+    $('.star_one_two').css('background-color','#E53D30');
+    $('.star_one_three').css('background-color','#E53D30');
+    $('.star_one_four').css('background-color','#E53D30');
+    $('.star_one_five').css('background-color','#E53D30');
   });
 
 });
