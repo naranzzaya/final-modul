@@ -1,0 +1,93 @@
+/* STORE.HTML */
+.store_header{
+  position: absolute;
+    display: block;
+    height: 5vw;
+    top: 10vw;
+    left: 7.5vw;
+    padding: 1vw 16.6vw;
+    border-top: 0.2vw solid #FFFFFF;
+    border-bottom: 0.2vw solid #FFFFFF;
+    text-align: center;
+}
+.store_board{
+  position: relative;
+  width: 85vw;
+  height: 36vw;
+  top: 21vw;
+  left: 7.5vw;
+  border-radius: 2vw 2vw 0 0;
+}
+.store_board > *{
+  position: relative;
+  display: inline-block;
+  width: 27vw;
+  height: 17vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FFFFFF;
+  border-radius: 2vw;
+}
+.merch_one{
+  top: 0;
+  left: 0;
+  background-image: url('../images/m_one.svg');
+}
+.merch_two{
+  top: 0;
+  left: 1.6vw;
+  background-image: url('../images/m_two.svg');
+}
+.merch_three{
+  top: 0;
+  left: 3.2vw;
+  background-image: url('../images/m_three.svg');
+}
+.merch_four{
+  bottom: -1.8vw;
+  left: 0;
+  background-image: url('../images/m_four.svg');
+}
+.merch_five{
+  bottom: -1.8vw;
+  left: 1.6vw;
+  background-image: url('../images/m_five.svg');
+}
+.merch_six{
+  bottom: -1.8vw;
+  left: 3.2vw;
+  background-image: url('../images/m_six.svg');
+}
+.button{
+  position: absolute;
+  top: 2.5vw;
+  right: 1.5vw;
+  background-color: #84BC33;
+  border-radius: 1vw;
+  width: 5vw;
+  height: 12vw;
+}
+.st_icon_one{
+  margin-left: 1.1vw;
+  margin-top: 2.2vw;
+  width: 3vw;
+  height: 3vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/icon_one.svg');
+}
+.st_icon_one:hover{
+  background-image: url('../images/icon_one_filled.svg');
+}
+.st_icon_two{
+  margin-left: 1.1vw;
+  margin-top: 1.5vw;
+  width: 3vw;
+  height: 3vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/icon_two.svg');
+}
+.st_icon_two:hover{
+  background-image: url('../images/icon_two_filled.svg');
+}

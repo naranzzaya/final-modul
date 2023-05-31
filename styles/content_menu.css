@@ -1,0 +1,96 @@
+/* CONTENT.HTML */
+.menu_header{
+  position: absolute;
+  display: block;
+  height: 5vw;
+  top: 10vw;
+  left: 7.5vw;
+  padding: 1vw 8vw;
+  /* line-height: 5vw; */
+  border-top: 0.2vw solid #FFFFFF;
+  border-bottom: 0.2vw solid #FFFFFF;
+  text-align: center;
+}
+.menu_board{
+  position: relative;
+  width: 85vw;
+  height: 36vw;
+  top: 21vw;
+  left: 7.5vw;
+  background-color: #FFFFFF;
+  border-radius: 2vw 2vw 0 0;
+}
+.cocktail_img{
+  position: absolute;
+  top: 2.5vw;
+  left: 11vw;
+  display: inline-block;
+  width: 28vw;
+  height: 30vw;
+  border: 0.3vw solid #84BC33;
+  border-radius: 2vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/cock_one.svg');
+}
+.cocktail_name{
+  position: absolute;
+  top: 2.5vw;
+  right: 11vw;
+  display: inline-block;
+  width: 28vw;
+  height: 30vw;
+  background-color:#84BC33;
+  border: 0.3vw solid #84BC33;
+  border-radius: 2vw;
+}
+.names > p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 1.5vw;
+  color: #FFFFFF;
+  margin-left: 3vw;
+  margin-top: 0.9vw;
+  z-index: 3;
+}
+.prices > p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 1.5vw;
+  color: #FFFFFF;
+  margin-left: 3vw;
+  margin-top: 0.9vw;
+  z-index: 2;
+}
+.prices{
+  margin-left: 18vw;
+  margin-top: -28.5vw;
+}
+.menu_dino{
+  position: absolute;
+  bottom: -0.3vw;
+  left: -1vw;
+  width: 23vw;
+  height: 30vw;
+  background-image: url('../images/menu_dino.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.menu_dino_hand{
+  position: absolute;
+  bottom: 14vw;
+  left: 15vw;
+  width: 7vw;
+  height: 6vw;
+  background-image: url('../images/menu_dino_hand.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  animation: wave 1s linear infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes wave {
+  0% {transform: rotate(0);}
+  100% {transform: rotate(20deg);}
+}
