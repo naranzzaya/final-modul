@@ -1,7 +1,5 @@
 $(document).ready(function(){
-// INDEX HTML
 // При наведении на 'о нас'
-
   $(".about").hover(function () {
     $('body').css('background-color','#84BC33');
     // элементы
@@ -47,9 +45,7 @@ $(document).ready(function(){
     }
   });
 
-
 // При наведении на 'меню'
-
   $(".menu").hover(function () {
     $('body').css('background-color','#69235C');
     // элементы
@@ -95,9 +91,7 @@ $(document).ready(function(){
     }
   });
 
-
 // При наведении на 'события'
-
   $(".event").hover(function () {
     $('body').css('background-color','#FCC537');
     // элементы
@@ -143,9 +137,7 @@ $(document).ready(function(){
     }
   });
 
-
 // При наведении на 'магазин'
-
   $(".shop").hover(function () {
     $('body').css('background-color','#6DBBE9');
     // элементы
@@ -190,91 +182,4 @@ $(document).ready(function(){
       ($('.banner').addClass('hibag'));
     }
   });
-
-// ABOUT HTML
-// висящие элементы в 'about.html'
-  $(function () {
-    let x;
-    $(window).on('scroll', function() {
-      x = $(window).scrollTop();
-      // console.log(x)
-      if (x > 0) {
-        // динозавр
-        $('.about_dino_blue').css('top', '15vw');
-        $('.about_dino_blue').css('left', '0vw');
-        $('.about_dino_blue').css('position', 'absolute');
-        // заголовок
-        $('.hang_h').css('top', '4vw');
-        $('.hang_h').css('left', '4vw');
-        $('.hang_h').css('position', 'absolute');
-        // 'книга'
-        $('.to_book').css('top', '40vw');
-        $('.to_book').css('left', '25vw');
-        $('.to_book').css('position', 'absolute');
-        // 'видео'
-        $('.to_video').css('top', '45vw');
-        $('.to_video').css('left', '25vw');
-        $('.to_video').css('position', 'absolute');
-      }
-      if (x > 750) {
-        // динозавр
-        $('.about_dino_blue').css('top', '15vw');
-        $('.about_dino_blue').css('position', 'fixed');
-        // заголовок
-        $('.hang_h').css('top', '4vw');
-        $('.hang_h').css('left', '9vw');
-        $('.hang_h').css('position', 'fixed');
-        // 'книга'
-        $('.to_book').css('top', '40vw');
-        $('.to_book').css('left', '30vw');
-        $('.to_book').css('position', 'fixed');
-        // 'видео'
-        $('.to_video').css('top', '45vw');
-        $('.to_video').css('left', '30vw');
-        $('.to_video').css('position', 'fixed');
-      }
-      if (x > 1400) {
-        // динозавр
-        $('.about_dino_blue').css('top', '65vw');
-        $('.about_dino_blue').css('left', '0vw');
-        $('.about_dino_blue').css('position', 'absolute');
-        // заголовок
-        $('.hang_h').css('top', '57vw');
-        $('.hang_h').css('left', '4vw');
-        $('.hang_h').css('position', 'absolute');
-        // 'книга'
-        $('.to_book').css('top', '90vw');
-        $('.to_book').css('left', '25vw');
-        $('.to_book').css('position', 'absolute');
-        // 'видео'
-        $('.to_video').css('top', '95vw');
-        $('.to_video').css('left', '25vw');
-        $('.to_video').css('position', 'absolute');
-      }
-    });
-  });
-
-// отзывы
-  // карточка 1
-  $(".card_one").hover(function () {
-    $('.card_one').addClass('animate__animated animate__pulse');
-  });
-  // карточка 2
-  $(".card_two").hover(function () {
-    $('.card_two').addClass('animate__animated animate__pulse');
-  });
-  // карточка 3
-  $(".card_three").hover(function () {
-    $('.card_three').addClass('animate__animated animate__pulse');
-  });
-
-// звездочки
-  $(".star_one_one").click(function () {
-    $('.star_one_one').css('background-image','url(../images/star_white.svg)');
-    $('.star_one_two').css('background-color','#E53D30');
-    $('.star_one_three').css('background-color','#E53D30');
-    $('.star_one_four').css('background-color','#E53D30');
-    $('.star_one_five').css('background-color','#E53D30');
-  });
-
 });

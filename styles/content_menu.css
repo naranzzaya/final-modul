@@ -29,6 +29,14 @@
   height: 30vw;
   border: 0.3vw solid #84BC33;
   border-radius: 2vw;
+}
+.cocktail{
+  position: absolute;
+  top: 0.5vw;
+  left: 0vw;
+  display: inline-block;
+  width: 28vw;
+  height: 30vw;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('../images/cock_one.svg');
@@ -40,7 +48,7 @@
   display: inline-block;
   width: 28vw;
   height: 30vw;
-  background-color:#84BC33;
+  background-color:#FFFFFF;
   border: 0.3vw solid #84BC33;
   border-radius: 2vw;
 }
@@ -48,23 +56,26 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   font-size: 1.5vw;
-  color: #FFFFFF;
+  color: #84BC33;
   margin-left: 3vw;
-  margin-top: 0.9vw;
+  margin-top: 0.8vw;
   z-index: 3;
+}
+.names:first-child{
+  margin-top: 1.3vw;
 }
 .prices > p{
   font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
+  font-weight: 100;
   font-size: 1.5vw;
-  color: #FFFFFF;
+  color: #84BC33;
   margin-left: 3vw;
-  margin-top: 0.9vw;
+  margin-top: 0.8vw;
   z-index: 2;
 }
 .prices{
   margin-left: 18vw;
-  margin-top: -28.5vw;
+  margin-top: -27.5vw;
 }
 .menu_dino{
   position: absolute;

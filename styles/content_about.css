@@ -17,7 +17,7 @@
 }
 .logo {
   height: 4.3vw;
-  width: 3vw;
+  width: 3.1vw;
   margin-top: 0vw;
   margin-left: 0vw;
   margin-right: 5vw;
@@ -439,21 +439,21 @@ h1 {
 .star_one > *{
   width: 3.6vw;
   height: 3.5vw;
-  background-image: url('../images/star.svg');
+  background-image: url('../images/star_white.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .star_two > *{
   width: 3.6vw;
   height: 3.5vw;
-  background-image: url('../images/star.svg');
+  background-image: url('../images/star_white.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .star_three > *{
   width: 3.6vw;
   height: 3.5vw;
-  background-image: url('../images/star.svg');
+  background-image: url('../images/star_white.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }

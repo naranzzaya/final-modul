@@ -3,5 +3,8 @@
 @import "content_about.css";
 @import "content_menu.css";
 @import "content_store.css";
+@import "content_contact.css";
+@import "content_book.css";
+@import "content_event.css";
 @import "font.css";
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@500&family=Montserrat:wght@500;700&family=Oswald:wght@700&family=Roboto:wght@300;400;500;700&display=swap');

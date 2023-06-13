@@ -28,6 +28,9 @@
   background-color: #FFFFFF;
   border-radius: 2vw;
 }
+.store_board > *:hover{
+  /* background-color: radial-gradient(circle at center, #84BC33 0, #FFFFFF 100%); */
+}
 .merch_one{
   top: 0;
   left: 0;
@@ -61,17 +64,17 @@
 .button{
   position: absolute;
   top: 2.5vw;
-  right: 1.5vw;
+  right: 1.1vw;
   background-color: #84BC33;
   border-radius: 1vw;
-  width: 5vw;
+  width: 4vw;
   height: 12vw;
 }
 .st_icon_one{
-  margin-left: 1.1vw;
-  margin-top: 2.2vw;
-  width: 3vw;
-  height: 3vw;
+  margin-left: 0.8vw;
+  margin-top: 1.2vw;
+  width: 2.5vw;
+  height: 2.5vw;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('../images/icon_one.svg');
@@ -80,14 +83,24 @@
   background-image: url('../images/icon_one_filled.svg');
 }
 .st_icon_two{
-  margin-left: 1.1vw;
-  margin-top: 1.5vw;
-  width: 3vw;
-  height: 3vw;
+  margin-left: 0.8vw;
+  margin-top: 1.2vw;
+  width: 2.5vw;
+  height: 2.5vw;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('../images/icon_two.svg');
 }
 .st_icon_two:hover{
   background-image: url('../images/icon_two_filled.svg');
+}
+.st_icon_three{
+  margin-left: 0.8vw;
+  margin-top: 1.2vw;
+  width: 2.5vw;
+  height: 2.5vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/icon_three.svg');
+}
 }

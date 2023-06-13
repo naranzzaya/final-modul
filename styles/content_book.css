@@ -1,0 +1,46 @@
+.book_header{
+  position: absolute;
+  display: block;
+  height: 5vw;
+  top: 10vw;
+  left: 7.5vw;
+  padding: 1vw 18vw;
+  /* line-height: 5vw; */
+  border-top: 0.2vw solid #FFFFFF;
+  border-bottom: 0.2vw solid #FFFFFF;
+  text-align: center;
+}
+.book_board{
+  position: relative;
+  width: 85vw;
+  height: 36vw;
+  top: 21vw;
+  left: 7.5vw;
+  background-color: #FFFFFF;
+  border-radius: 2vw 2vw 0 0;
+}
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+input[type='password'],
+form > div,
+form > label,
+.split {
+  position: relative;
+  display: block;
+  width: 500px;
+  margin: 15px auto;
+}
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+input[type='password']{
+  height: 46px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 17px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}

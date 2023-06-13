@@ -1,0 +1,138 @@
+.event_board{
+  position: relative;
+  width: 95vw;
+  height: 43.5vw;
+  top: 10vw;
+  left: 2.5vw;
+  /* background-color: navy; */
+}
+.one{
+  position: absolute;
+  top: 0vw;
+  left: 0vw;
+  width: 31vw;
+  height: 20vw;
+  /* background-color: #FFFFFF; */
+}
+.two{
+  position: absolute;
+  top: 0vw;
+  left: 32vw;
+  width: 31vw;
+  height: 20vw;
+  /* background-color: #FFFFFF; */
+}
+.three{
+  position: absolute;
+  top: 0vw;
+  right: 0vw;
+  width: 31vw;
+  height: 20vw;
+  /* background-color: #FFFFFF; */
+}
+.four{
+  position: absolute;
+  bottom: 0vw;
+  left: 0vw;
+  width: 31vw;
+  height: 20vw;
+  /* background-color: #FFFFFF; */
+}
+.five{
+  position: absolute;
+  bottom: 0vw;
+  left: 32vw;
+  width: 31vw;
+  height: 20vw;
+  /* background-color: #FFFFFF; */
+}
+.six{
+  position: absolute;
+  bottom: 0vw;
+  right: 0vw;
+  width: 31vw;
+  height: 20vw;
+  /* background-color: #FFFFFF; */
+}
+.one_one, .two_one, .three_one, .four_one, .five_one, .six_one{
+  position: absolute;
+  top: 0;
+  left: 0vw;
+  width: 15vw;
+  height: 22.5vw;
+  /* background-color: navy; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.7vw;
+}
+.text_one_one{
+  position: absolute;
+  top: 0;
+  left: 0vw;
+  width: 15vw;
+  height: 22.5vw;
+  /* background-color: navy; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.7vw;
+  background-image: url('../images/text_one_one.svg');
+}
+.one_two, .two_two, .three_two, .four_two, .five_two, .six_two{
+  position: absolute;
+  top: 0vw;
+  right: 0vw;
+  width: 15vw;
+  height: 22.5vw;
+  /* background-color: navy; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.7vw;
+}
+.text_one_two{
+  position: absolute;
+  top: 0vw;
+  right: 0vw;
+  width: 15vw;
+  height: 22.5vw;
+  /* background-color: navy; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.7vw;
+  background-image: url('../images/text_one_two.svg');
+}
+.one_one{
+  background-image: url('../images/poster_one.svg');
+}
+.one_two{
+  background-image: url('../images/poster_two.svg');
+}
+.two_one{
+  background-image: url('../images/poster_three.svg');
+}
+.two_two{
+  background-image: url('../images/poster_four.svg');
+}
+.three_one{
+  background-image: url('../images/poster_five.svg');
+}
+.three_two{
+  background-image: url('../images/poster_six.svg');
+}
+.four_one{
+  background-image: url('../images/poster_seven.svg');
+}
+.four_two{
+  background-image: url('../images/poster_eight.svg');
+}
+.five_one{
+  background-image: url('../images/poster_nine.svg');
+}
+.five_two{
+  background-image: url('../images/poster_ten.svg');
+}
+.six_one{
+  background-image: url('../images/poster_el.svg');
+}
+.six_two{
+  background-image: url('../images/poster_tw.svg');
+}
