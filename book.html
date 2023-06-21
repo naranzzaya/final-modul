@@ -10,7 +10,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/book.js"></script>
   </head>
   <body class="cover">
     <!-- навигация -->
@@ -26,12 +26,27 @@
     <!-- загололок -->
     <h1 class="book_header">ЗАБРОНИРУЙТЕ СТОЛИК!</h1>
     <!-- основная доска -->
-    <div class="book_board"></div>
+    <div class="book_board">
+      <form action="index.html" method="post">
+        <div class="forms">
+          <input class="place_name" type="text" name="" value="" placeholder="имя">
+          <input class="place_surname" type="text" name="" value="" placeholder="фамилия">
+          <input class="place_mail" type="email" name="" value="" placeholder="почта">
+          <input class="place_phone" type="tel" name="" value="" placeholder="телефон">
+          <select class="place_table" name="" placeholder="стол">
+            <option value="one">1</option>
+            <option value="two">2</option>
+            <option value="three">3</option>
+            <option value="four">4</option>
+            <option value="five">5</option>
+          </select>
+          <input class="place_date" type="date" name="" value="" placeholder="дата">
+          <div class="send">отправить</div>
+        </div>
+      </form>
+    </div>
     <div class="book_dino"></div>
-    <form action="index.html" method="post">
-      <input type="text" name="" value="" placeholder="Имя">
-      <input type="text" name="" value="" placeholder="Фамилия">
-    </form>
+
 
   </body>
 </html>

@@ -19,28 +19,72 @@
   background-color: #FFFFFF;
   border-radius: 2vw 2vw 0 0;
 }
-input[type='text'],
-input[type='email'],
-input[type='tel'],
-input[type='password'],
-form > div,
-form > label,
-.split {
-  position: relative;
-  display: block;
-  width: 500px;
-  margin: 15px auto;
+.book_dino{
+  position: absolute;
+  bottom: -1vw;
+  right: 0vw;
+  width: 22vw;
+  height: 29vw;
+  background-image: url('../images/book_dino.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-input[type='text'],
-input[type='email'],
-input[type='tel'],
-input[type='password']{
-  height: 46px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 0 15px;
-  font-size: 17px;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+.forms{
+  position: relative;
+  top: 4vw;
+  left: 17.5vw;
+  width: 50vw;
+  height: 28vw;
+  /* background-color: navy; */
+}
+.place_name, .place_surname, .place_table, .place_date, .place_mail, .place_phone{
+  position: absolute;
+  width: 19.5vw;
+  height: 3.7vw;
+  border: 0.3vw solid #84BC33;
+  border-radius: 0.5vw;
+  padding: 0 1vw;
+  font-size: 2vw;
+  border-color: #84BC33;
+}
+.place_name{
+  left: 2vw;
+  top: 2vw;
+}
+.place_surname{
+  right: 2vw;
+  top: 2vw;
+}
+.place_mail{
+  left: 2vw;
+  top: 7vw;
+}
+.place_phone{
+  right: 2vw;
+  top: 7vw;
+}
+.place_table{
+  left: 2vw;
+  top: 12vw;
+  width: 22vw;
+  height: 4.2vw;
+}
+.place_date{
+  right: 2vw;
+  top: 12vw;
+}
+.send{
+  position: absolute;
+  text-align: center;
+  left: 2vw;
+  top: 20vw;
+  width: 46vw;
+  height: 3.7vw;
+  background-color: #84BC33;
+  border-radius: 0.5vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 2vw;
+  color: #FFFFFF;
+  padding-top: 0.5vw
 }

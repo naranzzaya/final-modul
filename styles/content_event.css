@@ -2,7 +2,7 @@
   position: relative;
   width: 95vw;
   height: 43.5vw;
-  top: 10vw;
+  top: 9vw;
   left: 2.5vw;
   /* background-color: navy; */
 }
@@ -65,6 +65,17 @@
   background-size: cover;
   border-radius: 1.7vw;
 }
+.one_two, .two_two, .three_two, .four_two, .five_two, .six_two{
+  position: absolute;
+  top: 0vw;
+  right: 0vw;
+  width: 15vw;
+  height: 22.5vw;
+  /* background-color: navy; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.7vw;
+}
 .text_one_one{
   position: absolute;
   top: 0;
@@ -77,17 +88,6 @@
   border-radius: 1.7vw;
   background-image: url('../images/text_one_one.svg');
 }
-.one_two, .two_two, .three_two, .four_two, .five_two, .six_two{
-  position: absolute;
-  top: 0vw;
-  right: 0vw;
-  width: 15vw;
-  height: 22.5vw;
-  /* background-color: navy; */
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 1.7vw;
-}
 .text_one_two{
   position: absolute;
   top: 0vw;
@@ -99,6 +99,134 @@
   background-size: cover;
   border-radius: 1.7vw;
   background-image: url('../images/text_one_two.svg');
+}
+.text_two_one{
+  position: absolute;
+  top: 0;
+  left: 0vw;
+  width: 15vw;
+  height: 22.5vw;
+  /* background-color: navy; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.7vw;
+  background-image: url('../images/text_two_one.svg');
+}
+.text_two_two{
+  position: absolute;
+  top: 0;
+  right: 0vw;
+  width: 15vw;
+  height: 22.5vw;
+  /* background-color: navy; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.7vw;
+  background-image: url('../images/text_two_two.svg');
+}
+.text_three_one{
+  position: absolute;
+  top: 0;
+  left: 0vw;
+  width: 15vw;
+  height: 22.5vw;
+  /* background-color: navy; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.7vw;
+  background-image: url('../images/text_three_one.svg');
+}
+.text_three_two{
+  position: absolute;
+  top: 0;
+  right: 0vw;
+  width: 15vw;
+  height: 22.5vw;
+  /* background-color: navy; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.7vw;
+  background-image: url('../images/text_three_two.svg');
+}
+.text_four_one{
+  position: absolute;
+  top: 0;
+  left: 0vw;
+  width: 15vw;
+  height: 22.5vw;
+  /* background-color: navy; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.7vw;
+  background-image: url('../images/text_four_one.svg');
+}
+.text_four_two{
+  position: absolute;
+  top: 0;
+  right: 0vw;
+  width: 15vw;
+  height: 22.5vw;
+  /* background-color: navy; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.7vw;
+  background-image: url('../images/text_four_two.svg');
+}
+.text_four_two > a{
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 1vw;
+  margin-left: 3vw;
+  margin-top: 7vw;
+}
+.text_five_one{
+  position: absolute;
+  top: 0;
+  left: 0vw;
+  width: 15vw;
+  height: 22.5vw;
+  /* background-color: navy; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.7vw;
+  background-image: url('../images/text_five_one.svg');
+}
+.text_five_two{
+  position: absolute;
+  top: 0;
+  right: 0vw;
+  width: 15vw;
+  height: 22.5vw;
+  /* background-color: navy; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.7vw;
+  background-image: url('../images/text_five_two.svg');
+}
+.text_six_one{
+  position: absolute;
+  top: 0;
+  left: 0vw;
+  width: 15vw;
+  height: 22.5vw;
+  /* background-color: navy; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.7vw;
+  background-image: url('../images/text_six_one.svg');
+}
+.text_six_two{
+  position: absolute;
+  top: 0;
+  right: 0vw;
+  width: 15vw;
+  height: 22.5vw;
+  /* background-color: navy; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.7vw;
+  background-image: url('../images/text_six_two.svg');
 }
 .one_one{
   background-image: url('../images/poster_one.svg');
