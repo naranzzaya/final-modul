@@ -1,3 +1,27 @@
+/* STORE.HTML */
+.book_main{
+  color: #FFFFFF;
+  background-color: #E53D30;
+  border-radius: 1vw;
+  padding: 1vw;
+  margin-right: 4.5vw;
+}
+.about_main{
+  color: #84BC33;
+}
+.menu_main{
+  color: #84BC33;
+}
+.event_main{
+  color: #84BC33;
+}
+.shop_main{
+  color: #84BC33;
+}
+.contact_main{
+  font-weight: 600;
+  color: #84BC33;
+}
 .contact_header{
   position: absolute;
   display: block;
@@ -118,7 +142,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('../images/pin.svg');
+  animation: scale 1s ease infinite;
+  animation-direction: alternate-reverse;
 }
+
 .info{
   position: absolute;
   top: 2.5vw;
@@ -209,11 +236,15 @@
 .contact_dino{
   position: absolute;
   width: 23vw;
-  height: 36vw;
-  top: 3vw;
-  right: -8vw;
+  height: 30vw;
+  top: 6vw;
+  right: -7vw;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('../images/contact_dino.svg');
   z-index: 3;
+}
+@keyframes scale {
+  0% {transform: scale(1);}
+  100% {transform: scale(1.1);}
 }

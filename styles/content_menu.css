@@ -1,4 +1,27 @@
 /* CONTENT.HTML */
+.book_main{
+  color: #FFFFFF;
+  background-color: #E53D30;
+  border-radius: 1vw;
+  padding: 1vw;
+  margin-right: 4.5vw;
+}
+.about_main{
+  color: #84BC33;
+}
+.menu_main{
+  font-weight: 600;
+  color: #84BC33;
+}
+.event_main{
+  color: #84BC33;
+}
+.shop_main{
+  color: #84BC33;
+}
+.contact_main{
+  color: #84BC33;
+}
 .menu_header{
   position: absolute;
   display: block;
@@ -100,6 +123,21 @@
   z-index: 1;
   animation: wave 1s linear infinite;
   animation-direction: alternate-reverse;
+}
+/* .box {
+  width: 100px;
+  height: 100px;
+  background: black;
+  display: inline-block;
+  position: relative;
+  border: 1px solid white;
+  cursor: url("https://cdn.custom-cursor.com/db/7648/32/meme-pop-cat-cursor.png"), auto;
+} */
+.names > p:active {
+  cursor: url("../images/pointer.png"), auto;
+}
+.prices > p:active {
+  cursor: url("../images/pointer.png"), auto;
 }
 @keyframes wave {
   0% {transform: rotate(0);}

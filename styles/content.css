@@ -1,4 +1,7 @@
 /* INDEX.HTML */
+html{
+  cursor: url('../images/pointer.svg'), auto;
+}
 body {
   margin: 0;
   padding: 0;
@@ -246,6 +249,43 @@ body {
   background-image: url('../images/cloud_three.svg');
   background-repeat: no-repeat;
   z-index: 1;
+}
+.cover{
+  background-color: #84BC33;
+}
+/* менюбар */
+.nav{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 5vw;
+  background-color: #FFFFFF;
+  padding: 0.2vw 2vw;
+  left: 0vw;
+  z-index: 5;
+}
+.logo {
+  height: 4.3vw;
+  width: 3.1vw;
+  margin-top: 0vw;
+  margin-left: 0vw;
+  margin-right: 5vw;
+  background-image:url('../images/logo.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav a{
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6vw;
+}
+h1 {
+  font-size: 4vw;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-family: 'PPPangramSansRounded-Medium', sans-serif;
 }
 .none{
   display: none;

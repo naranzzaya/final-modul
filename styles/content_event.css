@@ -1,3 +1,26 @@
+.book_main{
+  color: #FFFFFF;
+  background-color: #E53D30;
+  border-radius: 1vw;
+  padding: 1vw;
+  margin-right: 4.5vw;
+}
+.about_main{
+  color: #84BC33;
+}
+.menu_main{
+  color: #84BC33;
+}
+.event_main{
+  font-weight: 600;
+  color: #84BC33;
+}
+.shop_main{
+  color: #84BC33;
+}
+.contact_main{
+  color: #84BC33;
+}
 .event_board{
   position: relative;
   width: 95vw;
@@ -74,7 +97,7 @@
   /* background-color: navy; */
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 1.7vw;
+  border-radius: 1vw;
 }
 .text_one_one{
   position: absolute;
