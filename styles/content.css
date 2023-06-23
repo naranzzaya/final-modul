@@ -1,6 +1,6 @@
 /* INDEX.HTML */
 html{
-  cursor: url('../images/pointer.svg'), auto;
+  cursor: url('../images/cursor.png'), auto;
 }
 body {
   margin: 0;
@@ -131,12 +131,13 @@ body {
 /* элементы */
 .light_one{
   position: fixed;
-  width: 80vw;
-  height: 100vw;
-  margin-left: 16vw;
+  width: 91vw;
+  height: 68vw;
+  margin-left: 2vw;
   margin-top: 0vw;
   background-image: url('../images/light_one.svg');
   background-repeat: no-repeat;
+  background-size: cover;
   z-index: 3;
 }
 .light_two{
@@ -147,18 +148,20 @@ body {
   margin-top: 3vw;
   background-image: url('../images/light_two.svg');
   background-repeat: no-repeat;
+  background-size: cover;
   z-index: 2;
 }
 .light_three{
   position: fixed;
-  width: 80vw;
+  width: 90vw;
   height: 100vw;
   margin-left: 16vw;
   margin-top: 0vw;
   background-image: url('../images/light_three.svg');
   background-repeat: no-repeat;
+  background-size: cover;
   z-index: 1;
-  transform: scale(1.5);
+  /* transform: scale(1.5); */
 }
 .leaves{
   position: fixed;
@@ -168,86 +171,95 @@ body {
   margin-top: 35vw;
   background-image: url('../images/leaves.svg');
   background-repeat: no-repeat;
+  background-size: cover;
   z-index: 1;
 }
 .ocean_ground{
   position: fixed;
   width: 32vw;
-  height: 30vw;
+  height: 16vw;
   margin-left: 0vw;
   margin-top: 44vw;
   background-image: url('../images/ocean_ground.svg');
   background-repeat: no-repeat;
+  background-size: cover;
   z-index: 1;
 }
 .ocean_plant{
   position: fixed;
-  width: 25vw;
-  height: 40vw;
-  margin-left: 83vw;
-  margin-top: 31vw;
+  width: 14vw;
+  height: 29vw;
+  margin-left: 84vw;
+  margin-top: 29vw;
   background-image: url('../images/ocean_plant.svg');
   background-repeat: no-repeat;
+  background-size: cover;
   z-index: 1;
 }
 .ocean_st{
   position: fixed;
-  width: 15vw;
-  height: 15vw;
+  width: 10vw;
+  height: 9vw;
   margin-left: 27vw;
-  margin-top: 50vw;
+  margin-top: 47vw;
   background-image: url('../images/ocean_st.svg');
   background-repeat: no-repeat;
+  background-size: cover;
   z-index: 1;
 }
 .ocean_sta{
   position: fixed;
-  width: 15vw;
-  height: 15vw;
+  width: 12vw;
+  height: 12vw;
   margin-left: 53vw;
-  margin-top: 50vw;
+  margin-top: 48vw;
   background-image: url('../images/ocean_sta.svg');
   background-repeat: no-repeat;
+  background-size: cover;
   z-index: 1;
 }
 .ocean_star{
   position: fixed;
-  width: 15vw;
-  height: 15vw;
+  width: 10vw;
+  height: 10vw;
   margin-left: 63vw;
-  margin-top: 47vw;
+  margin-top: 44vw;
   background-image: url('../images/ocean_star.svg');
   background-repeat: no-repeat;
+  background-size: cover;
   z-index: 1;
 }
 .cloud_one{
   position: fixed;
-  width: 28vw;
-  height: 15vw;
-  margin-left:2vw;
-  margin-top: 48vw;
+  width: 29vw;
+  height: 12vw;
+  margin-left: 5vw;
+  margin-top: 46vw;
   background-image: url('../images/cloud_one.svg');
   background-repeat: no-repeat;
+  background-size: cover;
   z-index: 1;
 }
 .cloud_two{
   position: fixed;
   width: 24vw;
-  height: 17vw;
-  margin-left: 46vw;
+  height: 13vw;
+  margin-left: 50vw;
   margin-top: 15vw;
   background-image: url('../images/cloud_two.svg');
   background-repeat: no-repeat;
+  background-size: cover;
   z-index: 1;
 }
 .cloud_three{
   position: fixed;
-  width: 20vw;
-  height: 28vw;
-  margin-left: 80vw;
-  margin-top: 49vw;
+  width: 19vw;
+  height: 11.5vw;
+  margin-left: 78vw;
+  margin-top: 44vw;
   background-image: url('../images/cloud_three.svg');
   background-repeat: no-repeat;
+  background-size: cover;
   z-index: 1;
 }
 .cover{

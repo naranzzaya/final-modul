@@ -1,0 +1,211 @@
+/* для 834 */
+@media screen and (min-width: 415px) and (max-width: 834px){
+.nav{
+  background: #84BC33;
+}
+.nav > a{
+  color: #FFFFFF;
+}
+.logo{
+  background-image: url('../images/logo_white.svg');
+}
+.menu_header{
+  top: 15vw;
+}
+.menu_board{
+  top: 33vw;
+  height: 111vw;
+}
+.cocktail_img{
+  width: 42vw;
+  height: 37vw;
+  top: 8vw;
+  left: 21vw;
+}
+.cocktail{
+  width: 36vw;
+  height: 34vw;
+  top: 2.5vw;
+  left:5vw;
+}
+.cocktail_name{
+  width: 42vw;
+  height: 37vw;
+  top: 60vw;
+  left: 21vw;
+}
+.menu_dino{
+  bottom: 57.7vw;
+  left: 10vw;
+}
+.menu_dino_hand{
+  bottom: 71vw;
+  left: 25vw;
+}
+.names > p{
+  font-size: 2vw;
+}
+.prices > p{
+  font-size: 2vw;
+}
+.prices{
+  margin-left: 30vw;
+  margin-top: -33.5vw;
+}
+}
+/* для 414 */
+@media only screen and (min-width: 390px) and (max-width: 414px){
+/* шапка */
+.nav{
+  display: none;
+}
+.head{
+  top: 14vw;
+  position: absolute;
+  display: flex;
+  background-color: #84BC33;
+  justify-content: space-between;
+  align-items: center;
+  width: 96vw;
+  height: 5vw;
+  padding: 0.2vw 2vw;
+  left: 0vw;
+  z-index: 5;
+}
+.aboutt{
+  margin-left: -15vw;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 4vw;
+  color: #FFFFFF;
+}
+.book_ip{
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 3.5vw;
+  color: #FFFFFF;
+  background-color: #E53D30;
+  border-radius: 1vw;
+  padding: 1vw;
+  margin-right: -12vw
+}
+.about_main{
+  color: #FFFFFF;
+}
+.logo{
+  margin-left: 2vw;
+  background-image: url('../images/logo_white.svg');
+}
+.hamburger{
+  width: 4.3vw;
+  height: 4.3vw;
+  background-image: url('../images/hamburger.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 2vw;
+}
+.burger{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 62vw;
+  background-color: #FFFFFF;
+  z-index: 5;
+}
+.burger >*{
+  text-align: center;
+  margin: 2vw;
+  display: block;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 4vw;
+  color: #FFFFFF;
+}
+.close{
+  width: 4.3vw;
+  height: 4.3vw;
+  background-image: url('../images/close.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 14.5vw;
+  margin-left: 91.5vw;
+}
+.book_main{
+  color: #FFFFFF;
+  background-color: #E53D30;
+  border-radius: 1vw;
+  padding: 1vw;
+  margin-right: 3vw;
+}
+.about_burger{
+  color: #84BC33;
+}
+.menu_burger{
+  color: #84BC33;
+}
+.event_burger{
+  color: #84BC33;
+}
+.shop_burger{
+  color: #84BC33;
+}
+.contact_burger{
+  color: #84BC33;
+}
+.menu_header{
+  top: 30vw;
+  padding: 1vw 0vw 10vw 0vw;
+}
+h1{
+  width: 85vw;
+  font-size: 6vw;
+  line-height: 6vw;
+}
+.menu_board{
+  top: 55vw;
+  height: 162vw;
+}
+.cocktail_img{
+  width: 70vw;
+  height: 57vw;
+  top: 8vw;
+  left: 7vw;
+}
+.cocktail{
+  width: 54vw;
+  height: 54vw;
+  top: 3.5vw;
+  left: 10vw;
+}
+.cocktail_name{
+  width: 70vw;
+  height: 65vw;
+  top: 90vw;
+  left: 7vw;
+}
+.menu_dino{
+  width: 31vw;
+  height: 41vw;
+  bottom: 84.7vw;
+  left: -1vw;
+}
+.menu_dino_hand{
+  width: 8vw;
+  height: 7vw;
+  bottom: 104vw;
+  left: 23vw;
+}
+.names > p{
+  font-size: 4vw;
+  margin-top: 0.9vw
+}
+.prices > p{
+  font-size: 4vw;
+}
+.prices{
+  margin-left: 52vw;
+  margin-top: -57.5vw;
+}
+
+}

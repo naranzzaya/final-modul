@@ -1,0 +1,337 @@
+/* для 1920 */
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+.menubar{
+  position: absolute;
+  right: 2vw;
+}
+.light_one{
+  width: 106vw;
+  height: 67vw;
+  margin-left: -3vw;
+  margin-top: -3vw;
+}
+.light_two{
+  width: 92vw;
+  height: 70vw;
+  margin-left: -3vw;
+  margin-top: 10vw;
+}
+.light_three{
+  width: 88vw;
+  height: 70vw;
+  margin-left: -3vw;
+  margin-top: -2vw;
+}
+.ocean_ground{
+  height: 17vw;
+}
+.ocean_plant{
+  width: 14.5vw;
+  height: 30vw;
+  margin-left: 83vw;
+  margin-top: 29vw;
+}
+.ocean_st{
+  width: 10vw;
+  height: 11vw;
+  margin-top: 49vw;
+  margin-left: 28vw;
+}
+.ocean_sta{
+  width: 13vw;
+  height: 11vw;
+  margin-top: 49vw;
+  margin-left: 50vw;
+}
+.ocean_star{
+  width: 12vw;
+  height: 11vw;
+  margin-top: 44vw;
+}
+.cloud_one{
+  width: 29vw;
+  height: 12vw;
+  margin-top: 46vw;
+  margin-left: 3vw;
+}
+.cloud_two{
+  width: 24vw;
+  height: 13vw;
+  margin-top: 11vw;
+  margin-left: 50vw;
+}
+.cloud_three{
+  width: 20vw;
+  height: 12vw;
+  margin-top: 46vw;
+  margin-left: 65vw;
+}
+}
+
+/* для 1024px */
+@media screen and (min-width: 835px) and (max-width: 1024px){
+.about{
+  top: 20vw;
+}
+.event{
+  top: 41vw;
+}
+.menu{
+  top: 32vw;
+}
+.shop{
+  top: 55vw;
+}
+.light_one{
+  width: 100vw;
+  margin-left: 20vw;
+  margin-top: 8vw;
+}
+.light_two{
+  width: 100vw;
+  margin-top: 7vw;
+}
+.banner{
+  top: 19vw;
+}
+.leaves{
+  width: 108vw;
+  margin-top: 50vw;
+}
+.ocean_ground{
+  width: 51vw;
+  height: 27vw;
+  margin-top: 60vw;
+}
+.ocean_plant{
+  margin-left: 84vw;
+  margin-top: 43vw;
+  width:16vw;
+  height:33vw;
+}
+.ocean_st{
+  margin-top: 62vw;
+}
+.ocean_sta{
+  margin-top: 65vw;
+}
+.ocean_star{
+  margin-top: 59vw;
+}
+.cloud_one{
+  margin-top: 58vw;
+  width: 36vw;
+  height: 15vw;
+}
+.cloud_two{
+  margin-top: 20vw;
+  margin-left: 52vw;
+  width: 24vw;
+}
+.cloud_three{
+  margin-top: 58vw;
+}
+}
+/* для 834px */
+@media screen and (min-width: 415px) and (max-width: 834px){
+.light_one{
+  width: 143vw;
+  height: 182vw;
+  margin-left: -11vw;
+  margin-top: -3vw;
+  background-image: url('../images/light_one_834.svg');
+}
+.light_two{
+  width: 143vw;
+  height: 182vw;
+  margin-left: -11vw;
+  margin-top: 28vw;
+  background-image: url('../images/light_two_834.svg');
+}
+.light_three{
+  width: 103vw;
+  height: 128vw;
+  margin-left: -11vw;
+  margin-top: -39vw;
+  background-image: url('../images/light_three_834.svg');
+}
+.about{
+  width: 56.5vw;
+  height: 12.05vw;
+  top: 22vw;
+  left: 9vw;
+}
+.menu{
+  width: 57.5vw;
+  height: 12.05vw;
+  top: 40vw;
+  left: 9vw;
+}
+.event{
+  width: 95vw;
+  height: 18.05vw;
+  top: 53vw;
+  left: 8.5vw;
+}
+.shop{
+  width: 89vw;
+  height: 12.05vw;
+  top: 77vw;
+  left: 9vw;
+}
+.banner{
+  width: 37vw;
+  height: 57vw;
+  top: 96vw;
+  right: 26vw;
+}
+.leaves{
+  width: 138vw;
+  height: 39vw;
+  margin-left: -19vw;
+  margin-top: 126vw;
+}
+.ocean_ground{
+  width: 85vw;
+  height: 49vw;
+  margin-left: -11vw;
+  margin-top: 121vw;
+  background-image: url('../images/ocean_ground_834.svg');
+}
+.ocean_plant{
+  width: 25.5vw;
+  height: 52vw;
+  margin-left: 84vw;
+  margin-top: 108vw;
+}
+.ocean_star, .ocean_sta{
+  display: none;
+}
+.ocean_st{
+  width: 19vw;
+  height: 17vw;
+  margin-left: 22vw;
+  margin-top: 108vw;
+  background-image: url('../images/ocean_st_834.svg');
+}
+.cloud_one{
+  width: 42vw;
+  height: 20vw;
+  margin-top: 138vw;
+  margin-left: 8vw;
+}
+.cloud_two{
+  width: 46vw;
+  height: 25vw;
+  margin-top: 20vw;
+  margin-left: 59vw;
+}
+.cloud_three{
+  width: 38vw;
+  height: 23vw;
+  margin-top: 109vw;
+  margin-left: 65vw;
+}
+}
+@media only screen and (min-width: 390px) and (max-width: 414px){
+.menubar > a{
+  margin-top: 26vw;
+}
+.about{
+  width: 70vw;
+  height: 14.7vw;
+  top: 71vw;
+  right: 14vw;
+}
+.menu{
+  width: 70vw;
+  height: 14.7vw;
+  top: 96vw;
+  right: 14vw;
+}
+.event{
+  width: 115vw;
+  height: 21.7vw;
+  top: 114vw;
+  right: 15vw;
+}
+.shop{
+  width: 107vw;
+  height: 14.7vw;
+  top: 146vw;
+  right: 14vw;
+}
+.banner{
+  width: 77vw;
+  height: 121vw;
+  top: 192vw;
+  right: -18vw;
+}
+.light_one{
+  width: 168vw;
+  height: 345vw;
+  margin-top: -2vw;
+  margin-left: -8vw;
+  background-image: url('../images/light_one_ip.svg');
+}
+.leaves{
+  width: 165vw;
+  height: 96vw;
+  margin-top: 254vw;
+  margin-left: -4vw;
+  background-image: url('../images/leaves_ip.svg');
+}
+.ocean_ground{
+  width: 133vw;
+  height: 72vw;
+  margin-top: 269vw;
+}
+.ocean_plant{
+  width: 34vw;
+  height: 70vw;
+  margin-top: 256vw;
+  margin-left: 114vw;
+}
+.ocean_sta, .ocean_star{
+  display: none;
+}
+.ocean_st{
+  width: 40vw;
+  height: 38vw;
+  margin-top: 176vw;
+  margin-left: 18vw;
+}
+.light_two{
+  width: 168vw;
+  height: 345vw;
+  margin-top: -2vw;
+  margin-left: -8vw;
+  background-image: url('../images/light_two_ip.svg');
+}
+.light_three{
+  width: 168vw;
+  height: 345vw;
+  margin-top: -48vw;
+  margin-left: -8vw;
+  background-image: url('../images/light_three_ip.svg');
+}
+.cloud_one{
+  width: 103vw;
+  height: 43vw;
+  margin-top: 289vw;
+  margin-left: 8vw;
+}
+.cloud_two{
+  width: 65vw;
+  height: 36vw;
+  margin-top: 65vw;
+  margin-left: 77vw;
+}
+.cloud_three{
+  width: 60vw;
+  height: 37vw;
+  margin-top: 186vw;
+  margin-left: 73vw;
+}
+
+}

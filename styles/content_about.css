@@ -4,7 +4,7 @@
   background-color: #E53D30;
   border-radius: 1vw;
   padding: 1vw;
-  margin-right: -6vw;
+  margin-right: 4vw;
 }
 .about_main{
   font-weight: 600;
@@ -178,6 +178,9 @@
   /* padding-left: 2vw;
   padding-bottom: 2vw; */
 }
+.images > *:active {
+  cursor: url('../images/cursor.png'), auto;
+}
 .img_one{
   background-image: url('../images/img_one.svg');
   background-size: cover;
@@ -293,7 +296,7 @@
   top: 170vw;
   left: 0vw;
   width: 100vw;
-  height: 112vh;
+  height: 53vh;
   /* background-color: navy; */
 }
 .about_third h1{

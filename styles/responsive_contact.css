@@ -1,0 +1,404 @@
+/* для 834 */
+@media screen and (min-width: 415px) and (max-width: 834px){
+.nav{
+  background: #84BC33;
+}
+.nav > a{
+  color: #FFFFFF;
+}
+.logo{
+  background-image: url('../images/logo_white.svg');
+}
+.contact_header{
+  padding: 1vw 16vw;
+  top: 15vw;
+}
+.contact_board{
+  top: 33vw;
+  height: 111vw;
+}
+.map{
+  width: 42vw;
+  height: 37vw;
+  top: 8vw;
+  left: 21vw;
+}
+.map >*{
+  width: 5vw;
+  height: 7vw;
+}
+.tree_two{
+  margin-left: 12vw;
+  margin-top: -3vw;
+}
+.tree_three{
+  margin-left: 21vw;
+  margin-top: -11vw;
+}
+.tree_four{
+  margin-left: 34vw;
+  margin-top: -6vw;
+}
+.tree_five{
+  margin-left: 51vw;
+  margin-top: 3vw;
+}
+.tree_six{
+  margin-left: 11vw;
+  margin-top: -5vw;
+}
+.tree_seven{
+  margin-left: 16vw;
+  margin-top: -9vw;
+}
+.tree_eight{
+  margin-left: 26vw;
+  margin-top: -10vw;
+}
+.tree_nine{
+  margin-left: 34vw;
+  margin-top: -2vw;
+}
+.tree_ten{
+  margin-left: 4vw;
+  margin-top: -5vw;
+}
+.tree_el{
+  margin-left: 5vw;
+  margin-top: 3vw;
+}
+.tree_tw{
+  margin-left: 12vw;
+  margin-top: -11vw;
+}
+.tree_thirteen{
+  margin-left: 30vw;
+  margin-top: -13vw;
+}
+.tree_fourteen{
+  margin-left: 35vw;
+  margin-top: -5vw;
+}
+.tree_fifteen{
+  margin-left: 1vw;
+  margin-top: -12vw;
+}
+.tree_sixteen{
+  margin-left:11vw;
+  margin-top: -6vw;
+}
+.tree_seventeen{
+  margin-left: 24vw;
+  margin-top: 5vw;
+}
+.tree_eighteen{
+  margin-left: 28vw;
+  margin-top: -6vw;
+}
+.pin{
+  width: 5vw;
+  height: 11vw;
+  margin-top:18vw;
+  margin-left: 42vw;
+}
+.info{
+  width: 42vw;
+  height: 34vw;
+  top: 60vw;
+  left: 21vw;
+}
+.contact_dino{
+  top: 22vw;
+  right: 2vw;
+}
+.info >p{
+  font-size: 2.4vw;
+}
+.contact_icon_one{
+  width: 3.2vw;
+  height: 3.21vw;
+  margin-left: 2vw;
+  margin-top: 2vw;
+}
+.contact_icon_two{
+  width: 3.2vw;
+  height: 3.5vw;
+  margin-left: 2vw;
+  margin-top: 3vw;
+}
+.contact_icon_three{
+  width: 3.2vw;
+  height: 3.5vw;
+  margin-left: 2vw;
+  margin-top: 3vw;
+}
+.mail {
+  margin-left: 8.5vw;
+  margin-top: -15.5vw;
+}
+.site{
+  margin-left: 8.5vw;
+  margin-top: 3.8vw;
+}
+.phone{
+  margin-left: 8.5vw;
+  margin-top: 3.8vw;
+}
+.warn {
+  margin-left: 6vw;
+  margin-top: 6vw;
+  width: 30vw;
+  line-height: 2.5vw;
+  height: 7vw;
+}
+/* для 414 */
+@media only screen and (min-width: 390px) and (max-width: 414px){
+/* шапка */
+.nav{
+  display: none;
+}
+.head{
+  top: 14vw;
+  position: absolute;
+  display: flex;
+  background-color: #84BC33;
+  justify-content: space-between;
+  align-items: center;
+  width: 96vw;
+  height: 5vw;
+  padding: 0.2vw 2vw;
+  left: 0vw;
+  z-index: 5;
+}
+.aboutt{
+  margin-left: -15vw;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 4vw;
+  color: #FFFFFF;
+}
+.book_ip{
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 3.5vw;
+  color: #FFFFFF;
+  background-color: #E53D30;
+  border-radius: 1vw;
+  padding: 1vw;
+  margin-right: -12vw
+}
+.about_main{
+  color: #FFFFFF;
+}
+.logo{
+  margin-left: 2vw;
+  background-image: url('../images/logo_white.svg');
+}
+.hamburger{
+  width: 4.3vw;
+  height: 4.3vw;
+  background-image: url('../images/hamburger.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 2vw;
+}
+.burger{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 62vw;
+  background-color: #FFFFFF;
+  z-index: 5;
+}
+.burger >*{
+  text-align: center;
+  margin: 2vw;
+  display: block;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 4vw;
+  color: #FFFFFF;
+}
+.close{
+  width: 4.3vw;
+  height: 4.3vw;
+  background-image: url('../images/close.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 14.5vw;
+  margin-left: 91.5vw;
+}
+.book_main{
+  color: #FFFFFF;
+  background-color: #E53D30;
+  border-radius: 1vw;
+  padding: 1vw;
+  margin-right: 3vw;
+}
+.about_burger{
+  color: #84BC33;
+}
+.menu_burger{
+  color: #84BC33;
+}
+.event_burger{
+  color: #84BC33;
+}
+.shop_burger{
+  color: #84BC33;
+}
+/* элементы */
+.contact_burger{
+  color: #84BC33;
+}
+.contact_header{
+  top: 30vw;
+  padding: 2vw 0vw 6vw 0vw;
+}
+h1{
+  width: 85vw;
+  font-size: 6vw;
+  line-height: 6vw;
+}
+.contact_board{
+  top: 55vw;
+  height: 162vw;
+}
+.map{
+  width: 70vw;
+  height: 57vw;
+  top: 8vw;
+  left: 7vw;
+}
+.map >*{
+  width: 8vw;
+  height: 11vw;
+}
+.tree_two{
+  margin-left: 12vw;
+  margin-top: -3vw;
+}
+.tree_three{
+  margin-left: 21vw;
+  margin-top: -15vw;
+}
+.tree_four{
+  margin-left: 40vw;
+  margin-top: -12vw;
+}
+.tree_five{
+  margin-left: 51vw;
+  margin-top: -13vw;
+}
+.tree_six{
+  margin-left: 5vw;
+  margin-top: 6vw;
+}
+.tree_seven{
+  margin-left: 16vw;
+  margin-top: -9vw;
+}
+.tree_eight{
+  margin-left: 30vw;
+  margin-top: -18vw;
+}
+.tree_nine{
+  margin-left: 46vw;
+  margin-top: -7vw;
+}
+.tree_ten{
+  margin-left: 58vw;
+  margin-top: -13vw;
+}
+.tree_el{
+  margin-left: 5vw;
+  margin-top: 6vw;
+}
+.tree_tw{
+  margin-left: 17vw;
+  margin-top: -7vw;
+}
+.tree_thirteen{
+  margin-left: 25vw;
+  margin-top: -7vw;
+}
+.tree_fourteen{
+  margin-left: 40vw;
+  margin-top: -15vw;
+}
+.tree_fifteen{
+  margin-left: 52vw;
+  margin-top: -10vw;
+}
+.tree_sixteen{
+  margin-left: 6vw;
+  margin-top: -6vw;
+}
+.tree_seventeen{
+  margin-left: 33vw;
+  margin-top: -10vw;
+}
+.tree_eighteen{
+  margin-left: 46vw;
+  margin-top: -12vw;
+}
+.pin{
+  width: 7vw;
+  height: 12vw;
+  margin-top:29vw;
+  margin-left: 39vw;
+}
+.info{
+  width: 70vw;
+  height: 65vw;
+  top: 90vw;
+  left: 7vw;
+}
+.info >p{
+  font-size: 4vw;
+}
+.contact_icon_one{
+  width: 5.2vw;
+  height: 5.2vw;
+  margin-left: 5vw;
+  margin-top: 6vw;
+}
+.contact_icon_two{
+  width: 5.2vw;
+  height: 5.2vw;
+  margin-left: 5vw;
+  margin-top: 7vw;
+}
+.contact_icon_three{
+  width: 5.2vw;
+  height: 5.2vw;
+  margin-left: 5vw;
+  margin-top:9vw;
+}
+.mail{
+  margin-left: 13.5vw;
+  margin-top: -30.5vw;
+}
+.site{
+  margin-left: 13.5vw;
+  margin-top: 8.5vw;
+}
+.phone{
+  margin-left: 13.5vw;
+  margin-top: 9vw;
+}
+.warn{
+  margin-left: 10vw;
+  width: 50vw;
+  height: 12vw;
+  line-height: 4vw;
+}
+.contact_dino{
+  width: 31vw;
+  height: 41vw;
+  top: 30vw;
+  left: 59vw;
+}
+}
+}

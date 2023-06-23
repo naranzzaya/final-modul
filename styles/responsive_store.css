@@ -1,0 +1,214 @@
+/* для 1024 */
+@media screen and (min-width: 834px) and (max-width: 1024px) {
+.store_board{
+  top: 28vw;
+}
+}
+/* для 834 */
+@media screen and (min-width: 415px) and (max-width: 834px){
+.nav{
+  background: #84BC33;
+}
+.nav > a{
+  color: #FFFFFF;
+}
+.logo{
+  background-image: url('../images/logo_white.svg');
+}
+.store_header{
+  top: 15vw;
+}
+.store_board>*{
+  width: 42vw;
+  height: 26vw;
+}
+.merch_one{
+  top: 3vw;
+  left: 0vw;
+}
+.merch_two{
+  top: 3vw;
+  left: 1.5vw;
+}
+.merch_three{
+  top: 6vw;
+  left: 0vw;
+}
+.merch_four{
+  top: 6vw;
+  left: 1.5vw;
+}
+.merch_five{
+  top: 8vw;
+  left: 0vw;
+}
+.merch_six{
+  top: 8vw;
+  left: 1.5vw;
+}
+.button{
+  top: 6.5vw;
+  right: 2.1vw;
+}
+}
+@media only screen and (min-width: 390px) and (max-width: 414px){
+/* шапка */
+.nav{
+  display: none;
+}
+.head{
+  top: 14vw;
+  position: absolute;
+  display: flex;
+  background-color: #84BC33;
+  justify-content: space-between;
+  align-items: center;
+  width: 96vw;
+  height: 5vw;
+  padding: 0.2vw 2vw;
+  left: 0vw;
+  z-index: 5;
+}
+.aboutt{
+  margin-left: -15vw;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 4vw;
+  color: #FFFFFF;
+}
+.book_ip{
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 3.5vw;
+  color: #FFFFFF;
+  background-color: #E53D30;
+  border-radius: 1vw;
+  padding: 1vw;
+  margin-right: -12vw
+}
+.about_main{
+  color: #FFFFFF;
+}
+.logo{
+  margin-left: 2vw;
+  background-image: url('../images/logo_white.svg');
+}
+.hamburger{
+  width: 4.3vw;
+  height: 4.3vw;
+  background-image: url('../images/hamburger.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 2vw;
+}
+.burger{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 62vw;
+  background-color: #FFFFFF;
+  z-index: 5;
+}
+.burger >*{
+  text-align: center;
+  margin: 2vw;
+  display: block;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 4vw;
+  color: #FFFFFF;
+}
+.close{
+  width: 4.3vw;
+  height: 4.3vw;
+  background-image: url('../images/close.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 14.5vw;
+  margin-left: 91.5vw;
+}
+.book_main{
+  color: #FFFFFF;
+  background-color: #E53D30;
+  border-radius: 1vw;
+  padding: 1vw;
+  margin-right: 3vw;
+}
+.about_burger{
+  color: #84BC33;
+}
+.menu_burger{
+  color: #84BC33;
+}
+.event_burger{
+  color: #84BC33;
+}
+.shop_burger{
+  color: #84BC33;
+}
+.contact_burger{
+  color: #84BC33;
+}
+.store_header {
+    top: 30vw;
+    padding: 1vw 0vw 10vw 0vw;
+}
+h1{
+  width: 85vw;
+  font-size: 6vw;
+  line-height: 6vw;
+}
+.store_board {
+    top: 55vw;
+    height: 162vw;
+}
+.store_board>*{
+  width: 85vw;
+  height: 53vw;
+}
+.merch_two{
+  top: 2vw;
+  left: 0;
+}
+.merch_three{
+  top: 4vw;
+  left: 0;
+}
+.merch_four{
+  top: 6vw;
+  left: 0;
+}
+.merch_five{
+  top: 8vw;
+  left: 0;
+}
+.merch_six{
+  top: 10vw;
+  left: 0;
+}
+.button{
+  width:8vw;
+  height: 29vw;
+  top: 11.5vw;
+  right: 4.1vw;
+}
+.st_icon_one{
+  width: 4.5vw;
+  height: 4.5vw;
+  margin-top: 4.2vw;
+  margin-left: 1.8vw;
+}
+.st_icon_two{
+  width: 4.5vw;
+  height: 4.5vw;
+  margin-top: 4.2vw;
+  margin-left: 1.8vw;
+}
+.st_icon_three{
+  width: 4.5vw;
+  height: 4.5vw;
+  margin-top: 4.2vw;
+  margin-left: 1.8vw;
+}
+}

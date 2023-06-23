@@ -71,15 +71,14 @@
   display: inline-block;
   width: 28vw;
   height: 30vw;
-  background-color:#FFFFFF;
-  border: 0.3vw solid #84BC33;
+  background-color:#84BC33;
   border-radius: 2vw;
 }
 .names > p{
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   font-size: 1.5vw;
-  color: #84BC33;
+  color: #FFFFFF;
   margin-left: 3vw;
   margin-top: 0.8vw;
   z-index: 3;
@@ -91,7 +90,7 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   font-size: 1.5vw;
-  color: #84BC33;
+  color: #FFFFFF;
   margin-left: 3vw;
   margin-top: 0.8vw;
   z-index: 2;
