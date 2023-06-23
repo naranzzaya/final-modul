@@ -69,6 +69,7 @@
   padding: 0 1vw;
   font-size: 2vw;
   border-color: #84BC33;
+  color: #757575;
 }
 .place_name, .place_surname, .place_table, .place_date, .place_mail, .place_phone{
   font-family: 'Inter', sans-serif;
