@@ -1,38 +1,38 @@
 $(document).ready(function(){
-  $(".drink_one").click(function () {
+  $(".drink_one").hover(function () {
     $('.cocktail').css('background-image','url(images/cock_one.svg)');
   });
-  $(".drink_two").click(function () {
+  $(".drink_two").hover(function () {
     $('.cocktail').css('background-image','url(images/cock_two.svg)');
   });
-  $(".drink_three").click(function () {
+  $(".drink_three").hover(function () {
     $('.cocktail').css('background-image','url(images/cock_three.svg)');
   });
-  $(".drink_four").click(function () {
+  $(".drink_four").hover(function () {
     $('.cocktail').css('background-image','url(images/cock_four.svg)');
   });
-  $(".drink_five").click(function () {
+  $(".drink_five").hover(function () {
     $('.cocktail').css('background-image','url(images/cock_five.svg)');
   });
-  $(".drink_six").click(function () {
+  $(".drink_six").hover(function () {
     $('.cocktail').css('background-image','url(images/cock_six.svg)');
   });
-  $(".drink_seven").click(function () {
+  $(".drink_seven").hover(function () {
     $('.cocktail').css('background-image','url(images/cock_seven.svg)');
   });
-  $(".drink_eight").click(function () {
+  $(".drink_eight").hover(function () {
     $('.cocktail').css('background-image','url(images/cock_eight.svg)');
   });
-  $(".drink_nine").click(function () {
+  $(".drink_nine").hover(function () {
     $('.cocktail').css('background-image','url(images/cock_nine.svg)');
   });
-  $(".drink_ten").click(function () {
+  $(".drink_ten").hover(function () {
     $('.cocktail').css('background-image','url(images/cock_ten.svg)');
   });
-  $(".drink_el").click(function () {
+  $(".drink_el").hover(function () {
     $('.cocktail').css('background-image','url(images/cock_el.svg)');
   });
-  $(".drink_tw").click(function () {
+  $(".drink_tw").hover(function () {
     $('.cocktail').css('background-image','url(images/cock_tw.svg)');
   });
 });
