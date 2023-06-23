@@ -1,3 +1,19 @@
+/* для 1024 */
+@media screen and (min-width: 834px) and (max-width: 1024px){
+.menu_board{
+  height: 48vw;
+  top: 28vw;
+}
+.menu_header{
+  top: 13vw;
+}
+.cocktail_img{
+  top: 7.5vw;
+}
+.cocktail_name{
+  top: 7.5vw;
+}
+}
 /* для 834 */
 @media screen and (min-width: 415px) and (max-width: 834px){
 .nav{

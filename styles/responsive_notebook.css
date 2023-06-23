@@ -1,10 +1,20 @@
 /* для 1024 */
 @media screen and (min-width: 834px) and (max-width: 1024px){
-.store_header{
+.notebook_board{
+  height: 48vw;
+  top: 28vw;
+}
+.notebook_header{
   top: 13vw;
 }
-.store_board{
-  top: 28vw;
+.notebook_img{
+  top: 7.5vw;
+}
+.notebook_info{
+  top: 7.5vw;
+}
+.arrow{
+  top: 14.5vw;
 }
 }
 /* для 834 */
@@ -18,42 +28,55 @@
 .logo{
   background-image: url('../images/logo_white.svg');
 }
-.store_header{
+.notebook_header{
   top: 15vw;
 }
-.store_board>*{
+.notebook_board{
+  top: 33vw;
+  height: 111vw;
+}
+.notebook_img{
   width: 42vw;
-  height: 26vw;
-}
-.merch_one{
-  top: 3vw;
-  left: 0vw;
-}
-.merch_two{
-  top: 3vw;
-  left: 1.5vw;
-}
-.merch_three{
-  top: 6vw;
-  left: 0vw;
-}
-.merch_four{
-  top: 6vw;
-  left: 1.5vw;
-}
-.merch_five{
+  height: 37vw;
   top: 8vw;
-  left: 0vw;
+  left: 21vw;
 }
-.merch_six{
-  top: 8vw;
-  left: 1.5vw;
+.notebook{
+  width: 36vw;
+  height: 28vw;
+  top: 2.5vw;
+  left:5vw;
 }
-.button{
-  top: 6.5vw;
-  right: 2.1vw;
+.notebook_info{
+  width: 42vw;
+  height: 37vw;
+  top: 60vw;
+  left: 21vw;
+}
+.notebook_info > p{
+  font-size: 3vw;
+  height: 5vw;
+  padding-top: 1vw;
+}
+.notebook_size{
+  width: 33vw;
+}
+.notebook_count{
+  width: 15vw;
+}
+.notebook_price{
+  margin-top: -6.7vw;
+  margin-left: 21vw;
+  width: 15vw;
+}
+.add{
+  width: 33vw;
+}
+.arrow{
+  top: 16vw;
 }
 }
+/* для 414 */
 @media only screen and (min-width: 390px) and (max-width: 414px){
 /* шапка */
 .nav{
@@ -153,65 +176,62 @@
 .contact_burger{
   color: #84BC33;
 }
-.store_header {
-    top: 30vw;
-    padding: 1vw 0vw 10vw 0vw;
+.notebook_header{
+  top: 30vw;
+  padding: 1vw 0vw 10vw 0vw;
 }
 h1{
   width: 85vw;
   font-size: 6vw;
   line-height: 6vw;
 }
-.store_board {
-    top: 55vw;
-    height: 162vw;
+.notebook_board{
+  top: 55vw;
+  height: 162vw;
 }
-.store_board>*{
-  width: 85vw;
-  height: 53vw;
-}
-.merch_two{
-  top: 2vw;
-  left: 0;
-}
-.merch_three{
-  top: 4vw;
-  left: 0;
-}
-.merch_four{
-  top: 6vw;
-  left: 0;
-}
-.merch_five{
+.notebook_img{
+  width: 70vw;
+  height: 57vw;
   top: 8vw;
-  left: 0;
+  left: 7vw;
 }
-.merch_six{
-  top: 10vw;
-  left: 0;
+.notebook{
+  width: 54vw;
+  height: 43vw;
+  top: 3.5vw;
+  left: 10vw;
 }
-.button{
-  width:8vw;
-  height: 29vw;
-  top: 11.5vw;
-  right: 4.1vw;
+.notebook_info{
+  width: 70vw;
+  height: 65vw;
+  top: 90vw;
+  left: 7vw;
 }
-.st_icon_one{
-  width: 4.5vw;
-  height: 4.5vw;
-  margin-top: 4.2vw;
-  margin-left: 1.8vw;
+.notebook_info > p{
+  font-size: 6vw;
+  height: 11vw;
+  border: 0.5vw solid #FFFFFF;
 }
-.st_icon_two{
-  width: 4.5vw;
-  height: 4.5vw;
-  margin-top: 4.2vw;
-  margin-left: 1.8vw;
+.notebook_size{
+  width: 53vw;
+  margin-top: 6vw;
+  margin-left: 7vw;
 }
-.st_icon_three{
-  width: 4.5vw;
-  height: 4.5vw;
-  margin-top: 4.2vw;
-  margin-left: 1.8vw;
+.notebook_count{
+  width: 23vw;
+  margin-top: 2vw;
+  margin-left: 7vw;
+}
+.notebook_price{
+  margin-top: -12.8vw;
+  margin-left: 37vw;
+  width: 23vw;
+}
+.add{
+  width: 53vw;
+  margin-left: 7vw;
+}
+.arrow{
+  top: 35.5vw;
 }
 }

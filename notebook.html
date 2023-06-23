@@ -2,11 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>guitasaur</title>
+    <title>Guitasaur</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/content_book.css">
-    <link rel="stylesheet" href="styles/responsive_book.css">
+    <link rel="stylesheet" href="styles/content_notebook.css">
+    <link rel="stylesheet" href="styles/responsive_notebook.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link
@@ -14,7 +14,6 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-    <script type="text/javascript" src="js/book.js"></script>
     <script type="text/javascript" src="js/ip_about.js"></script>
   </head>
   <body class="cover">
@@ -30,6 +29,7 @@
     </div>
     <div class="head none">
       <a href="index.html"><div class="logo"></div></a>
+      <a class="aboutt" href="store.html">магазин</a>
       <a class="book_ip" href="book.html">забронировать</a>
       <div class="hamburger"></div>
     </div>
@@ -41,31 +41,21 @@
       <a class="shop_burger" href="store.html">магазин</a>
       <a class="contact_burger" href="contact.html">контакты</a>
     </div>
-    <!-- загололок -->
-    <h1 class="book_header">ЗАБРОНИРУЙТЕ СТОЛИК!</h1>
+    <!-- заголовок -->
+    <h1 class="notebook_header">БЛОКНОТ НОТЫ</h1>
+    <!-- стрелочка -->
+    <a href="store.html"><div class="arrow"></div></a>
     <!-- основная доска -->
-    <div class="book_board">
-      <form action="index.html" method="post">
-        <div class="forms">
-          <input class="place_name" type="text" name="" value="" placeholder="имя">
-          <input class="place_surname" type="text" name="" value="" placeholder="фамилия">
-          <input class="place_mail" type="email" name="" value="" placeholder="почта">
-          <input class="place_phone" type="tel" name="" value="" placeholder="телефон">
-          <select class="place_table" name="" placeholder="стол">
-            <option value="one">номер стола</option>
-            <option value="one">1</option>
-            <option value="two">2</option>
-            <option value="three">3</option>
-            <option value="four">4</option>
-            <option value="five">5</option>
-          </select>
-          <input class="place_date" type="date" name="" value="" placeholder="дата">
-          <div class="send">отправить</div>
-        </div>
-      </form>
+    <div class="notebook_board">
+      <div class="notebook_img">
+        <div class="notebook animate__animated animate__tada"></div>
+      </div>
+      <div class="notebook_info">
+        <p class="notebook_size">104*74 см</p>
+        <p class="notebook_count">+1-</p>
+        <p class="notebook_price">450р</p>
+        <p class="add">Добавить в корзину</p>
+      </div>
     </div>
-    <div class="book_dino"></div>
-
-
   </body>
 </html>

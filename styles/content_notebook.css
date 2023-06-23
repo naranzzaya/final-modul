@@ -1,0 +1,120 @@
+.book_main{
+  color: #FFFFFF;
+  background-color: #E53D30;
+  border-radius: 1vw;
+  padding: 1vw;
+  margin-right: 4.5vw;
+}
+.about_main{
+  color: #84BC33;
+}
+.menu_main{
+  color: #84BC33;
+}
+.event_main{
+  color: #84BC33;
+}
+.shop_main{
+  font-weight: 600;
+  color: #84BC33;
+}
+.contact_main{
+  color: #84BC33;
+}
+.notebook_header{
+  position: absolute;
+  display: block;
+  height: 5vw;
+  top: 10vw;
+  left: 7.5vw;
+  padding: 1vw 26.9vw;
+  /* line-height: 5vw; */
+  border-top: 0.2vw solid #FFFFFF;
+  border-bottom: 0.2vw solid #FFFFFF;
+  text-align: center;
+}
+.arrow{
+  position: fixed;
+  left: 2vw;
+  top: 11.5vw;
+  width: 6vw;
+  height: 3vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/arrow.svg')
+}
+.notebook_board{
+  position: relative;
+  width: 85vw;
+  height: 39vw;
+  top: 21vw;
+  left: 7.5vw;
+  background-color: #FFFFFF;
+  border-radius: 2vw 2vw 0 0;
+}
+.notebook_img{
+  position: absolute;
+  top: 2.5vw;
+  left: 11vw;
+  display: inline-block;
+  width: 28vw;
+  height: 30vw;
+  border: 0.3vw solid #84BC33;
+  border-radius: 2vw;
+}
+.notebook{
+  position: absolute;
+  top: 3.5vw;
+  left: 0vw;
+  display: inline-block;
+  width: 28vw;
+  height: 22vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/notebook.svg');
+}
+.notebook_info{
+  position: absolute;
+  top: 2.5vw;
+  right: 11vw;
+  display: inline-block;
+  width: 28vw;
+  height: 30vw;
+  background-color:#84BC33;
+  border-radius: 2vw;
+}
+.notebook_info p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 1.5vw;
+  height: 2.5vw;
+  border: 0.2vw solid #FFFFFF;
+  border-radius: 1vw;
+  text-align: center;
+  padding: 0.5vw 1vw;
+}
+.notebook_size{
+  width: 20vw;
+  margin-top: 4vw;
+  margin-left: 3vw;
+  color: #FFFFFF;
+}
+.notebook_count{
+  width: 8vw;
+  margin-top: 2vw;
+  margin-left: 3vw;
+  color: #FFFFFF;
+}
+.notebook_price{
+  width: 8vw;
+  margin-top: -4vw;
+  margin-left: 15vw;
+  color: #FFFFFF;
+}
+.add{
+  width: 20vw;
+  margin-top: 7vw;
+  margin-left: 3vw;
+  color: #84BC33;
+  background-color: #FFFFFF;
+}

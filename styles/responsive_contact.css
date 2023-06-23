@@ -1,3 +1,19 @@
+/* для 1024 */
+@media screen and (min-width: 834px) and (max-width: 1024px){
+.contact_board{
+  height: 48vw;
+  top: 28vw;
+}
+.contact_header{
+  top: 13vw;
+}
+.map{
+  top: 7.5vw;
+}
+.info{
+  top: 7.5vw;
+}
+}
 /* для 834 */
 @media screen and (min-width: 415px) and (max-width: 834px){
 .nav{
@@ -150,6 +166,7 @@
   width: 30vw;
   line-height: 2.5vw;
   height: 7vw;
+}
 }
 /* для 414 */
 @media only screen and (min-width: 390px) and (max-width: 414px){
@@ -399,6 +416,5 @@ h1{
   height: 41vw;
   top: 30vw;
   left: 59vw;
-}
 }
 }
